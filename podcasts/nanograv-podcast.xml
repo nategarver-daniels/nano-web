@@ -17,7 +17,7 @@
 <!-- DATE YOU BUILT THIS PODCAST -->
 <lastBuildDate>Fri, 01 March 2013 10:00:00 -0500</lastBuildDate>
 <!-- date you published the site -->
-<pubDate>Fri, 01 March 2013 10:00:00 -0500</pubDate>
+<pubDate>Fri, 01 Mar 2013 10:00:00 EST</pubDate>
 <!-- bespoke i tunes code -->
 <!-- put in a subtitle for your site -->
 <itunes:subtitle>North American Nanohertz Observatory for Gravitational Waves</itunes:subtitle>
@@ -47,7 +47,6 @@
 <!-- first web cast- leave a note so you know it is the first episode, when there is a lot of code you can forget which item you are looking at -->
 <!-- tilte of your episode -->
 <title>An Introduction to NANOGrav with Maura McLaughlin</title>
-<subtitle>First in a three-part introduction to NANOGrav</subtitle>
 <!-- description of the episode -->
 <description>Ryan and Maura discuss the origins of the NANOGrav collaboration and the foundations of the science that it explores.</description>
 <!-- Link to the file on your web server http://.......... -->
@@ -57,9 +56,9 @@ url="http://nanograv.org/podcasts/maura_mclaughlin-part_1.mp3"
 length="1057"
 type="audio/mpeg"
 />
-<guid isPermaLink="true"></guid>
+<guid isPermaLink="true">http://nanograv.org/podcasts/maura_mclaughlin-part_1.mp3</guid>
 <!-- published date and time -->
-<pubDate>Fri, 01 March 2013 13:00:00 -0500</pubDate>
+<pubDate>Fri, 01 Mar 2013 13:00:00 EST</pubDate>
 <!-- Subtitle of your episode -->
 <itunes:subtitle>First in a three-part introduction to NANOGrav</itunes:subtitle>
 <!-- summary of your episode -->
@@ -71,7 +70,7 @@ type="audio/mpeg"
 <!-- author of the episode -->
 <itunes:author>Ryan S. Lynch</itunes:author>
 <!-- is this episode explicit or not, yes/no -->
-<itunes:explicit></itunes:explicit>
+<itunes:explicit>no</itunes:explicit>
 <!-- close this episode, copy <item> for new episode -->
 </item>
 <!-- close whole channel information, end of podcast -->
