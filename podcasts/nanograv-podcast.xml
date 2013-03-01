@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+<channel>
+<!-- unless stated all information for your site need to go between <> and </> -->
+<!-- PUT THE NAME OF YOUR PODCAST SITE HERE -->
+<title>NANOGrav Podcast</title>
+<!-- PLACE A BRIEF DESCRIPTION OF YOUR SITE HERE -->
+<description></description>
+<!-- PLACE THE URL LINK TO YOUR SITE WITH HTTP:// -->
+<link>http://nanograv.org/index.html</link>
+<!-- NAME OF COPYRIGHT HOLDER -->
+<copyright>&#x2117; &amp; &#xA9; 2013 Ryan S. Lynch</copyright>
+<!-- USEFUL HELP SITE WHEN YOU FORGET CODE -->
+<docs>http://blogs.law.harvard.edu/tech/rss</docs>
+<!-- WHAT LANGUAGE (this is englsh) -->
+<language>en-us</language>
+<!-- DATE YOU BUILT THIS PODCAST -->
+<lastBuildDate>Fri, 01 March 2013 10:00:00 -0500</lastBuildDate>
+<!-- date you published the site -->
+<pubDate>Fri, 01 March 2013 10:00:00 -0500</pubDate>
+<!-- bespoke i tunes code -->
+<!-- put in a subtitle for your site -->
+<itunes:subtitle>North American Nanohertz Observatory for Gravitational Waves</itunes:subtitle>
+<!-- main text that will describe your site in your podcast -->
+<itunes:summary>NANOGrav is a collaboration of observational and theoretical astrophysicists from more than a dozen universities, colleges, and observatories. We include faculty, scientific staff, postdoctoral scholars, graduate students, and undergraduate students, and high school students. We seek to measure gravitational waves--ripples in space-time--by detecting their effect on radio wave signals traveling from pulsars--rapidly rotating neutron stars--to the Earth. Our measurements are most sensitive to gravitational waves with periods of a few years, which corresponds to frequencies of a few nanohertz--hence the "NANO" in our name, "NANOGrav." The strongest sources of such gravitational waves are likely to be binary systems in which two massive black holes orbit one another. Such binary systems form when galaxies merge with one another.</itunes:summary>
+<!-- what catagory decribes you, choose a few -->
+<itunes:category text="Education"/>
+<itunes:category text="Technology"/>
+<!-- key word to help search, comma between each word -->
+<itunes:keywords>Pulsar,PTA,Astronomy,GW</itunes:keywords>
+<!-- author name -->
+<itunes:author>Ryan S. Lynch</itunes:author>
+<!-- details of who runs this site -->
+<itunes:owner>
+<!-- your main email account so they can contact you if there is a problem -->
+<itunes:email>nathaniel.garver-daniels@nanograv.org</itunes:email>
+<!-- contact name -->
+<itunes:name>Nathaniel Garver-Daniels</itunes:name>
+<!-- close owner section -->
+</itunes:owner>
+<!-- location of image to be used on your site, href="http://..........." location on your web server -->
+<itunes:image href="http://nanograv.org/images/nanograv-logo-box-small.jpg"/>
+<!-- explicit - yes/no -->
+<itunes:explicit>no</itunes:explicit>
+<!-- episode content, new item for each eposode to be loaded -->
+<item>
+<!-- first web cast- leave a note so you know it is the first episode, when there is a lot of code you can forget which item you are looking at -->
+<!-- tilte of your episode -->
+<title>An Introduction to NANOGrav with Maura McLaughlin</title>
+<subtitle>First in a three-part introduction to NANOGrav</subtitle>
+<!-- description of the episode -->
+<description>Ryan and Maura discuss the origins of the NANOGrav collaboration and the foundations of the science that it explores.</description>
+<!-- Link to the file on your web server http://.......... -->
+<!-- location of your file on the web server -->
+<enclosure 
+url="http://nanograv.org/podcasts/maura_mclaughlin-part_1.mp3"
+length="1057"
+type="audio/mpeg"
+/>
+<guid isPermaLink="true"></guid>
+<!-- published date and time -->
+<pubDate>Fri, 01 March 2013 13:00:00 -0500</pubDate>
+<!-- Subtitle of your episode -->
+<itunes:subtitle>First in a three-part introduction to NANOGrav</itunes:subtitle>
+<!-- summary of your episode -->
+<itunes:summary>Ryan and Maura discuss the origins of the NANOGrav collaboration and the foundations of the science that it explores.</itunes:summary>
+<!-- length of your episode 05:23, HH:MM:SS this will appear next to the title -->
+<itunes:duration>00:17:37</itunes:duration>
+<!-- keyword for this episode, to help searching -->
+<itunes:keywords></itunes:keywords>
+<!-- author of the episode -->
+<itunes:author>Ryan S. Lynch</itunes:author>
+<!-- is this episode explicit or not, yes/no -->
+<itunes:explicit></itunes:explicit>
+<!-- close this episode, copy <item> for new episode -->
+</item>
+<!-- close whole channel information, end of podcast -->
+</channel>
+ 
+<!-- close rss feed -->
+</rss>
+ 
+<!-- save the file as .xml -->
+<!-- FTP this to your server, tell itunes where the file is located and your podcast will be live in a day or two once Apple have given it a quick check -->
+<!-- enjoy, Chris Linford, www.chrislinford.co.uk -->
