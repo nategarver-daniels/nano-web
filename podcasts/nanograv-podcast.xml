@@ -46,14 +46,14 @@
 <item>
 <!-- first web cast- leave a note so you know it is the first episode, when there is a lot of code you can forget which item you are looking at -->
 <!-- tilte of your episode -->
-<title>An Introduction to NANOGrav with Maura McLaughlin</title>
+<title>An Introduction to NANOGrav with Maura McLaughlin (pt. 1)</title>
 <!-- description of the episode -->
 <description>Ryan and Maura discuss the origins of the NANOGrav collaboration and the foundations of the science that it explores.</description>
 <!-- Link to the file on your web server http://.......... -->
 <!-- location of your file on the web server -->
 <enclosure 
 url="http://nanograv.org/podcasts/maura_mclaughlin-part_1.mp3"
-length="1057"
+length="16923121"
 type="audio/mpeg"
 />
 <guid isPermaLink="true">http://nanograv.org/podcasts/maura_mclaughlin-part_1.mp3</guid>
@@ -65,6 +65,62 @@ type="audio/mpeg"
 <itunes:summary>Ryan and Maura discuss the origins of the NANOGrav collaboration and the foundations of the science that it explores.</itunes:summary>
 <!-- length of your episode 05:23, HH:MM:SS this will appear next to the title -->
 <itunes:duration>00:17:37</itunes:duration>
+<!-- keyword for this episode, to help searching -->
+<itunes:keywords></itunes:keywords>
+<!-- author of the episode -->
+<itunes:author>Ryan S. Lynch</itunes:author>
+<!-- is this episode explicit or not, yes/no -->
+<itunes:explicit>no</itunes:explicit>
+<!-- close this episode, copy <item> for new episode -->
+</item>
+<item>
+<title>An Introduction to NANOGrav with Maura McLaughlin (pt. 2)</title>
+<!-- description of the episode -->
+<description>Ryan and Maura discuss the origins of the NANOGrav collaboration and the foundations of the science that it explores.</description>
+<!-- Link to the file on your web server http://.......... -->
+<!-- location of your file on the web server -->
+<enclosure 
+url="http://nanograv.org/podcasts/maura_mclaughlin-part_2.mp3"
+length="12052995"
+type="audio/mpeg"
+/>
+<guid isPermaLink="true">http://nanograv.org/podcasts/maura_mclaughlin-part_2.mp3</guid>
+<!-- published date and time -->
+<pubDate>Fri, 01 Mar 2013 13:20:00 EST</pubDate>
+<!-- Subtitle of your episode -->
+<itunes:subtitle>Second in a three-part introduction to NANOGrav</itunes:subtitle>
+<!-- summary of your episode -->
+<itunes:summary>Ryan and Maura discuss the search for Gravitational Waves.</itunes:summary>
+<!-- length of your episode 05:23, HH:MM:SS this will appear next to the title -->
+<itunes:duration>00:12:33</itunes:duration>
+<!-- keyword for this episode, to help searching -->
+<itunes:keywords></itunes:keywords>
+<!-- author of the episode -->
+<itunes:author>Ryan S. Lynch</itunes:author>
+<!-- is this episode explicit or not, yes/no -->
+<itunes:explicit>no</itunes:explicit>
+<!-- close this episode, copy <item> for new episode -->
+</item>
+<item>
+<title>An Introduction to NANOGrav with Maura McLaughlin (pt. 3)</title>
+<!-- description of the episode -->
+<description>Ryan and Maura discuss the origins of the NANOGrav collaboration and the foundations of the science that it explores.</description>
+<!-- Link to the file on your web server http://.......... -->
+<!-- location of your file on the web server -->
+<enclosure 
+url="http://nanograv.org/podcasts/maura_mclaughlin-part_2.mp3"
+length="12052995"
+type="audio/mpeg"
+/>
+<guid isPermaLink="true">http://nanograv.org/podcasts/maura_mclaughlin-part_2.mp3</guid>
+<!-- published date and time -->
+<pubDate>Fri, 01 Mar 2013 13:40:00 EST</pubDate>
+<!-- Subtitle of your episode -->
+<itunes:subtitle>Third in a three-part introduction to NANOGrav</itunes:subtitle>
+<!-- summary of your episode -->
+<itunes:summary>Ryan and Maura discuss pulsars, and how they are used in pulsar timing arrays.</itunes:summary>
+<!-- length of your episode 05:23, HH:MM:SS this will appear next to the title -->
+<itunes:duration>00:19:46</itunes:duration>
 <!-- keyword for this episode, to help searching -->
 <itunes:keywords></itunes:keywords>
 <!-- author of the episode -->
