@@ -108,8 +108,8 @@ type="audio/mpeg"
 <!-- Link to the file on your web server http://.......... -->
 <!-- location of your file on the web server -->
 <enclosure 
-url="http://nanograv.org/podcasts/maura_mclaughlin-part_2.mp3"
-length="12052995"
+url="http://nanograv.org/podcasts/maura_mclaughlin-part_3.mp3"
+length="18983427"
 type="audio/mpeg"
 />
 <guid isPermaLink="true">http://nanograv.org/podcasts/maura_mclaughlin-part_2.mp3</guid>
