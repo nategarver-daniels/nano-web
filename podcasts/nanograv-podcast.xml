@@ -112,7 +112,7 @@ url="http://nanograv.org/podcasts/maura_mclaughlin-part_3.mp3"
 length="18983427"
 type="audio/mpeg"
 />
-<guid isPermaLink="true">http://nanograv.org/podcasts/maura_mclaughlin-part_2.mp3</guid>
+<guid isPermaLink="true">http://nanograv.org/podcasts/maura_mclaughlin-part_3.mp3</guid>
 <!-- published date and time -->
 <pubDate>Fri, 01 Mar 2013 13:40:00 EST</pubDate>
 <!-- Subtitle of your episode -->
@@ -142,7 +142,7 @@ type="audio/mpeg"
 />
 <guid isPermaLink="true">http://nanograv.org/podcasts/dan_stinebring.mp3</guid>
 <!-- published date and time -->
-<pubDate>Tue, 23 Apr 2013 15:00:00 EST</pubDate>
+<pubDate>Tue, 23 Apr 2013 15:00:00 EDT</pubDate>
 <!-- Subtitle of your episode -->
 <itunes:subtitle>An Interview with Dan Stinebring</itunes:subtitle>
 <!-- summary of your episode -->
