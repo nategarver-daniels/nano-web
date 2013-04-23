@@ -129,6 +129,34 @@ type="audio/mpeg"
 <itunes:explicit>no</itunes:explicit>
 <!-- close this episode, copy <item> for new episode -->
 </item>
+<item>
+<title>An Interview with Dan Stinebring</title>
+<!-- description of the episode -->
+<description>Ryan and Dan discuss the properties of Pulsars and the Interstellar Medium</description>
+<!-- Link to the file on your web server http://.......... -->
+<!-- location of your file on the web server -->
+<enclosure 
+url="http://nanograv.org/podcasts/dan_stinebring.mp3"
+length="18573448"
+type="audio/mpeg"
+/>
+<guid isPermaLink="true">http://nanograv.org/podcasts/dan_stinebring.mp3</guid>
+<!-- published date and time -->
+<pubDate>Fri, 01 Mar 2013 13:40:00 EST</pubDate>
+<!-- Subtitle of your episode -->
+<itunes:subtitle>An Interview with Dan Stinebring</itunes:subtitle>
+<!-- summary of your episode -->
+<itunes:summary>Ryan and Dan discuss pulsars and the Interstellar Medium</itunes:summary>
+<!-- length of your episode 05:23, HH:MM:SS this will appear next to the title -->
+<itunes:duration>00:19:20</itunes:duration>
+<!-- keyword for this episode, to help searching -->
+<itunes:keywords></itunes:keywords>
+<!-- author of the episode -->
+<itunes:author>Ryan S. Lynch</itunes:author>
+<!-- is this episode explicit or not, yes/no -->
+<itunes:explicit>no</itunes:explicit>
+<!-- close this episode, copy <item> for new episode -->
+</item>
 <!-- close whole channel information, end of podcast -->
 </channel>
  
