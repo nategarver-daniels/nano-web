@@ -185,6 +185,34 @@ type="audio/mpeg"
 <itunes:explicit>no</itunes:explicit>
 <!-- close this episode, copy <item> for new episode -->
 </item>
+<item>
+<title>An Interview with David Nice</title>
+<!-- description of the episode -->
+<description>Ryan and David discuss Gravity and General Relativity</description>
+<!-- Link to the file on your web server http://.......... -->
+<!-- location of your file on the web server -->
+<enclosure 
+url="http://nanograv.org/podcasts/david_nice.mp3"
+length="29864046"
+type="audio/mpeg"
+/>
+<guid isPermaLink="true">http://nanograv.org/podcasts/david_nice.mp3</guid>
+<!-- published date and time -->
+<pubDate>Mon, 05 Aug 2013 16:00:00 EDT</pubDate>
+<!-- Subtitle of your episode -->
+<itunes:subtitle>An Interview with David Nice</itunes:subtitle>
+<!-- summary of your episode -->
+<itunes:summary>Ryan and Scott discuss the interesting properties of pulsars</itunes:summary>
+<!-- length of your episode 05:23, HH:MM:SS this will appear next to the title -->
+<itunes:duration>00:31:06</itunes:duration>
+<!-- keyword for this episode, to help searching -->
+<itunes:keywords></itunes:keywords>
+<!-- author of the episode -->
+<itunes:author>Ryan S. Lynch</itunes:author>
+<!-- is this episode explicit or not, yes/no -->
+<itunes:explicit>no</itunes:explicit>
+<!-- close this episode, copy <item> for new episode -->
+</item>
 <!-- close whole channel information, end of podcast -->
 </channel>
  
