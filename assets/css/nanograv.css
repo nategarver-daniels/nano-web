@@ -126,11 +126,11 @@ p,div {
 .nanograv-pink {
   /* border-color: rgba(229,140,118,0.95) */ /*Ryan 01*/
    /* border-color: #5E0042; */ 
-  /*border-color: #0b486b;*/
+  /*border-color: #0b486b; */
   /* border-color: #1d0c20; */ 
   border-top: 10px solid;
   border-color: #cafcd8;
-  background: rgba(255,255,255,1); 
+  background: rgba(255,255,255,1);
   /*border-color: #5ed2ff; */
   color: black;
 }
@@ -140,9 +140,9 @@ p,div {
   border-top: 10px solid;
   /* border-color: rgba(34,209,144,0.95) */
   /* border-color: #2c2233; */ 
-  /* border-color: #3b8686; */
-  /* border-color: #651f71; */
-   border-color: #04bfbf; 
+   /*border-color: #3b8686; */ 
+/*   border-color: #651f71;  */
+     border-color: #04bfbf;  
   background: rgba(255,255,255,1);
   /*border-color: #ab86ff;*/
   color: black;
