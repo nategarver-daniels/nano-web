@@ -1,0 +1,186 @@
+/* Regular */
+@font-face {
+    font-family: 'League Gothic';
+    src: url('league_gothic/leaguegothic-italic-webfont.eot');
+    src: url('league_gothic/leaguegothic-italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('league_gothic/leaguegothic-italic-webfont.svg#league_gothic_italicregular') format('svg'),
+         url('league_gothic/leaguegothic-italic-webfont.woff') format('woff'),
+         url('league_gothic/leaguegothic-italic-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+
+}
+
+/* Italic */
+@font-face {
+    font-family: 'League Gothic';
+    src: url('league_gothic/leaguegothic-regular-webfont.eot');
+    src: url('league_gothic/leaguegothic-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('league_gothic/leaguegothic-regular-webfont.svg#league_gothicregular') format('svg'),
+         url('league_gothic/leaguegothic-regular-webfont.woff') format('woff'),
+         url('league_gothic/leaguegothic-regular-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/* Condensed */
+@font-face {
+    font-family: 'League Gothic Condensed';
+    src: url('league_gothic/leaguegothic-condensed-regular-webfont.eot');
+    src: url('league_gothic/leaguegothic-condensed-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('league_gothic/leaguegothic-condensed-regular-webfont.svg#league_gothic_condensed-Rg') format('svg'),
+         url('league_gothic/leaguegothic-condensed-regular-webfont.woff') format('woff'),
+         url('league_gothic/leaguegothic-condensed-regular-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/* Condensed Italic */
+@font-face {
+    font-family: 'League Gothic Condensed';
+    src: url('league_gothic/leaguegothic-condensed-italic-webfont.eot');
+    src: url('league_gothic/leaguegothic-condensed-italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('league_gothic/leaguegothic-condensed-italic-webfont.svg#league_gothic_condensed_itaRg') format('svg'),
+         url('league_gothic/leaguegothic-condensed-italic-webfont.woff') format('woff'),
+         url('league_gothic/leaguegothic-condensed-italic-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'League Gothic', Arial, sans;
+}
+
+p,div {
+    font-family: 'Droid Sans', sans
+}
+
+
+/*large desktop */
+
+/*@media (min-width: 1200px) {
+  .fourw {
+    position: absolute;
+    top: 300px;
+    z-index: 1;
+  }
+  .stretch {
+    min-height: 100px;
+  }
+
+
+}
+
+@media (max-height: 768) and (min-width: 768) {
+  .nanohover:hover {
+    position: absolute;
+    top: 50px;  
+    z-index: 1;
+  }
+}
+
+
+/* medium large desktop */
+/*@media (min-width: 980px) and (max-width: 1199) {
+  .fourw {
+    position: absolute;
+    top: 250px;
+    z-index: 1;
+  }
+  .stretch {
+    min-height: 100px;
+    max-height: 100px;
+  }
+
+ }
+ 
+/* Portrait tablet to landscape and desktop */
+/*@media (min-width: 768px) and (max-width: 979px) { 
+  .fourw {
+    position: absolute;
+    top: 50px;
+    z-index: 1;
+  }
+  .stretch {
+    min-height: 100px;
+    max-height: 100px;
+  }
+
+ }
+ 
+*/
+
+.dropshadow {
+  text-shadow: 1px 1px 1px rgba(255, 255, 255, .5);
+} 
+
+
+.blocklink a:link {
+  color: #000000;
+
+
+}
+.nanograv-pink {
+  /* border-color: rgba(229,140,118,0.95) */ /*Ryan 01*/
+   /* border-color: #5E0042; */ 
+  /*border-color: #0b486b; */
+  /* border-color: #1d0c20; */ 
+  border-top: 10px solid;
+  border-color: #cafcd8;
+  background: rgba(255,255,255,1);
+  /*border-color: #5ed2ff; */
+  color: black;
+}
+
+
+.nanograv-yellow {
+  border-top: 10px solid;
+  /* border-color: rgba(34,209,144,0.95) */
+  /* border-color: #2c2233; */ 
+   /*border-color: #3b8686; */ 
+/*   border-color: #651f71;  */
+     border-color: #04bfbf;  
+  background: rgba(255,255,255,1);
+  /*border-color: #ab86ff;*/
+  color: black;
+}
+
+.nanograv-green {
+  /* border-color: rgba(62,152,191,0.95) */
+  /* border-color: #005869; */ 
+  /* border-color: #79bd9a; */
+  /* border-color: #7037cd; */
+  /*border-color: #f7e967; */
+  border-top: 10px solid;
+  background: rgba(255,255,255,1);
+  border-color: #84ff6f;
+  color: black;
+}
+
+.nanograv-blue {
+  /* border-color: rgba(50,60,229,1.0) */
+  /* border-color: #00856A;  */
+  /* border-color: #a8dba8; */
+  /* border-color: #506ee5; */
+  /* border-color: #a9cf54;*/
+  border-top: 10px solid;
+  background: rgba(255,255,255,1);
+  border-color: #fffc5f;
+  color: black;
+}
+
+.nanograv-purple {
+  /*  border-color: rgba(94,25,163,1.0) */
+  /* border-color: #8DB500; */
+  /*border-color: #cff09e; */
+  /* border-color: #68b2f8; */
+  /*border-color: #588f27; */
+ border-top: 10px solid;
+ background: white;
+ border-color: #ff8761;
+ color: black;
+}
+
