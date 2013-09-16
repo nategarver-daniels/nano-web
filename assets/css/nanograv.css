@@ -183,4 +183,11 @@ p,div {
  border-color: #ff8761;
  color: black;
 }
+.col{
+    margin-bottom: -99999px;
+    padding-bottom: 99999px;
+}
 
+.col-wrap{
+    overflow: hidden; 
+}
