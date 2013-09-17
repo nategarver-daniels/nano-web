@@ -59,59 +59,6 @@ p,div {
 }
 
 
-/*large desktop */
-
-/*@media (min-width: 1200px) {
-  .fourw {
-    position: absolute;
-    top: 300px;
-    z-index: 1;
-  }
-  .stretch {
-    min-height: 100px;
-  }
-
-
-}
-
-@media (max-height: 768) and (min-width: 768) {
-  .nanohover:hover {
-    position: absolute;
-    top: 50px;  
-    z-index: 1;
-  }
-}
-
-
-/* medium large desktop */
-/*@media (min-width: 980px) and (max-width: 1199) {
-  .fourw {
-    position: absolute;
-    top: 250px;
-    z-index: 1;
-  }
-  .stretch {
-    min-height: 100px;
-    max-height: 100px;
-  }
-
- }
- 
-/* Portrait tablet to landscape and desktop */
-/*@media (min-width: 768px) and (max-width: 979px) { 
-  .fourw {
-    position: absolute;
-    top: 50px;
-    z-index: 1;
-  }
-  .stretch {
-    min-height: 100px;
-    max-height: 100px;
-  }
-
- }
- 
-*/
 
 .dropshadow {
   text-shadow: 1px 1px 1px rgba(255, 255, 255, .5);
@@ -123,64 +70,45 @@ p,div {
 
 
 }
-.nanograv-pink {
-  /* border-color: rgba(229,140,118,0.95) */ /*Ryan 01*/
-   /* border-color: #5E0042; */ 
-  /*border-color: #0b486b; */
-  /* border-color: #1d0c20; */ 
-  border-top: 10px solid;
-  border-color: #cafcd8;
-  background: rgba(255,255,255,1);
-  /*border-color: #5ed2ff; */
+.nanograv-one {
+  /*background: rgba(26,96,190,.9);*/
+  background: rgba(32,83,120,.9);
   color: black;
 }
 
 
-.nanograv-yellow {
-  border-top: 10px solid;
-  /* border-color: rgba(34,209,144,0.95) */
-  /* border-color: #2c2233; */ 
-   /*border-color: #3b8686; */ 
-/*   border-color: #651f71;  */
-     border-color: #04bfbf;  
-  background: rgba(255,255,255,1);
-  /*border-color: #ab86ff;*/
+.nanograv-two {
+  /*background: rgba(36,114,195,.9);*/
+  background: rgba(22,149,163,.9);
   color: black;
 }
 
-.nanograv-green {
-  /* border-color: rgba(62,152,191,0.95) */
-  /* border-color: #005869; */ 
-  /* border-color: #79bd9a; */
-  /* border-color: #7037cd; */
-  /*border-color: #f7e967; */
-  border-top: 10px solid;
-  background: rgba(255,255,255,1);
-  border-color: #84ff6f;
+.nanograv-three {
+  /*background: rgba(115,167,219,.9);*/ 
+  background: rgba(172,240,242,.9);
   color: black;
 }
 
-.nanograv-blue {
-  /* border-color: rgba(50,60,229,1.0) */
-  /* border-color: #00856A;  */
-  /* border-color: #a8dba8; */
-  /* border-color: #506ee5; */
-  /* border-color: #a9cf54;*/
-  border-top: 10px solid;
-  background: rgba(255,255,255,1);
-  border-color: #fffc5f;
+.nanograv-four {
+  /*background: rgba(72,119,42,.9);*/
+  background: rgba(243,255,226,.9);
   color: black;
 }
 
-.nanograv-purple {
-  /*  border-color: rgba(94,25,163,1.0) */
-  /* border-color: #8DB500; */
-  /*border-color: #cff09e; */
-  /* border-color: #68b2f8; */
-  /*border-color: #588f27; */
- border-top: 10px solid;
- background: white;
- border-color: #ff8761;
+.nanograv-five {
+ /*background: rgba(109,178,68,.9);*/
+ background: rgba(235,127,0,.9);
  color: black;
 }
+.nanograv-six {
+ background: rgba(249,246,137,.9);
+ color: black;
+}
+.col{
+    margin-bottom: -99999px;
+    padding-bottom: 99999px;
+}
 
+.col-wrap{
+    overflow: hidden; 
+}
