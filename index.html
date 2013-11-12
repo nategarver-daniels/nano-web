@@ -8,22 +8,19 @@
   <meta name="copyright" content="Copyright (c) 2013 NANOGrav">
   <meta name="description" content="NANOGrav is a collaboration of astronomers, physicists, and engineers from over a dozen universities, colleges, and observatories across North America. We include faculty, scientific staff, postdoctoral scholars, graduate students, and undergraduate students, and high school students.  Our goal is to directly detect gravitational waves --- tiny ripples in space-time --- and use them to study the Universe by measuring their effect on radio wave signals traveling to the Earth from pulsars --- rapidly rotating neutron stars. Our measurements are most sensitive to gravitational waves with periods of a few years, which corresponds to frequencies of a few nanohertz --- hence the NANO in our name, NANOGrav. The strongest sources of such gravitational waves are likely to be binary systems in which two massive black holes orbit one another. Such binary systems form when galaxies merge with one another.">
   <meta name="keywords" content="pulsars,gravitational waves,pulsar timing array,gravity,neutron star">
-  <link href="assets/css/bootstrap.css" rel="stylesheet" media="screen">
-  <link href="assets/css/nanograv.css" rel="stylesheet" media="screen">
+  <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css">
+ <!-- <link href="assets/css/nanograv.css" rel="stylesheet" media="screen"> -->
   <link href="http://fonts.googleapis.com/css?family=Droid+Serif" rel="stylesheet" type="text/css">
   <link href="http://fonts.googleapis.com/css?family=Droid+Sans" rel="stylesheet" type="text/css">
   <link href="http://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
-  <link href="assets/css/bootstrap-responsive.css" rel="stylesheet" media="screen">
+  <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css">
 </head>
 
-<body style="padding: 40px;">
-  <div class="container-fluid"> <!-- start body container -->
+<body style="padding-top: 50px;">
   <!-- start navbar/banner image -->
-  <div class="navbar navbar-inverse navbar-fixed-top">
-  <div class="navbar-inner">
-  <div class="container">
+  <div class="navbar navbar-default navbar-fixed-top">
     <!-- start main menu -->
-    <ul class="nav">
+    <ul class="nav navbar-nav">
       <li class="active"><a href="index.html">Home</a></li>
       <li><a href="astronomers/">For Astronomers</a></li>
       <li><a href="science/">Science</a></li>
@@ -36,7 +33,7 @@
     </ul>
     <!-- end main menu -->
     <!-- start social media icons -->
-    <ul class="nav pull-right">
+    <ul class="nav navbar-nav pull-right">
       <li>
         <a href="mailto:info@nanograv.org">
           <i class="icon-large icon-envelope"></i>
@@ -64,61 +61,68 @@
       </li>
     </ul>
     <!-- end social media icons -->
-  </div> <!-- end container -->
-  </div> <!-- end navbar-inner -->
   </div> <!-- end navbar -->
   <!-- set up the body layout -->
-  <div style="background-color: rgba(255,255,255,0);" class="row-fluid">
-  <div class="row-fluid">
-    <img src="assets/img/gravity3.png">
-  </div> <!-- end row-fluid -->
-  </div> <!-- end row-fluid -->
+  <div class="container"> <!-- start body container -->
+  <img src="assets/img/gravity3.png" class="img-responsive">
   
   <!-- start body content -->
   
   <!-- start question blocks and slides -->
-  <div class="row-fluid">
-  <div class="span9">
-  <div style="padding-top: 20px;" class="row-fluid col-wrap">
+  <div class="row">
+  <div class="col-sm-9">
+  <div class="row">
     <!-- start WHAT block -->
-    <div class="span2 text-center nanograv-one blocklink col well-small">
-      <a href="#nanogravBusytown" data-slide-to="0">
-        <h2>WHAT?</h2>
-      </a>
+    <div class="col-sm-2 text-center">
+      <div class="btn-group">
+      <button type="button" class="btn btn-default dropdown-toggle" 
+        data-toggle="dropdown">
+        <h3>WHAT</h3>
+      </button>
+        <ul class="dropdown-menu" role="menu">
+        <li>
+         <p>
+	        NANOGrav is a collaboration of scientists working to detect
+	        and study gravitational waves &mdash; tiny ripples in the fabric
+	        of space and time.
+	       </p>
+         <li>
+        </ul>
+      </div>
     </div>
     <!-- end WHAT block -->
     <!-- start WHY block -->
-    <div class="span2 text-center nanograv-two blocklink coli well-small">
+    <div class="col-sm-2 text-center">
       <a href="#nanogravBusytown" data-slide-to="1">
-        <h2>WHY?</h2>
+        <h3>WHY?</h3>
       </a>
     </div>
     <!-- end WHY block -->
     <!-- start HOW block -->
-    <div class="span2 text-center nanograv-three blocklink col well-small">
+    <div class="col-sm-2 text-center">
       <a href="#nanogravBusytown" data-slide-to="2">
-        <h2>HOW?</h2>
+        <h3>HOW?</h3>
       </a>
     </div>
     <!-- end HOW block -->
     <!-- start WHO block -->
-    <div class="span2 text-center nanograv-four blocklink col well-small">
+    <div class="col-sm-2 text-center">
       <a href="#nanogravBusytown" data-slide-to="3">
-        <h2>WHO?</h2>
+        <h3>WHO?</h3>
       </a>
     </div>
     <!-- end WHO block -->
     <!-- start WHERE block -->
-    <div class="span2 text-center nanograv-five blocklink col well-small">
+    <div class="col-sm-2 text-center" >
       <a href="#nanogravBusytown" data-slide-to="4">
-        <h2>WHERE?</h2>
+        <h3>WHERE?</h3>
       </a>
     </div>
     <!-- end WHERE block -->
     <!-- start WHEN block -->
-    <div class="span2 text-center nanograv-six blocklink col well-small">
+    <div class="col-sm-2 text-center">
       <a href="#nanogravBusytown" data-slide-to="5">
-        <h2>WHEN?</h2>
+        <h3>WHEN?</h3>
       </a>
     </div>
     <!-- end WHEN block -->
@@ -126,16 +130,13 @@
   <!-- end question blocks -->
   
   <!-- start slides -->
-  <div class="row-fluid">
+  <div class="row">
   <div id="nanogravBusytown" class="carousel slide" data-interval="0">
   <div class="carousel-inner">
     <!-- start WHAT slide -->
     <div id="whatBusytown" class="item active">
-      <div class="row-fluid">
-        <div class="span12 nanograv-blue blocklink"></div>
-      </div>
       <!-- start WHAT text -->
-      <div class="span3">
+      <div class="col-sm-3">
 	<h3>What is NANOGrav?</h3>
         <p>
 	NANOGrav is a collaboration of scientists working to detect
@@ -148,25 +149,13 @@
       </div>
       <!-- end WHAT text -->
       <!-- begin WHAT image -->
-      <div class="span8">
-        <ul class="thumbnails">
-          <li class="span11">
-            <div class="thumbnail">
-              <img src="assets/img/nanograv_sensitivity.png">
-            </div>
-          </li>
-        </ul>
-      </div>
       <!-- end WHAT image -->
     </div>
     <!-- end WHAT slide -->
     <!-- start WHY slide -->
     <div id = "whyBusytown" class="item">
-      <div class="row-fluid">
-        <div class="span12 nanograv-yellow blocklink"></div>
-      </div>
       <!-- start HOW text -->
-      <div class="span3">
+      <div class="col-sm-3">
 	<h3>Why study gravitational waves?</h3>
         <p>
 	Gravitational wave astronomy is at the cutting edge of modern
@@ -180,9 +169,9 @@
       </div>
       <!-- end WHY text -->
       <!-- start WHY image -->
-      <div class="span8">
+      <div class="col-sm-8">
         <ul class="thumbnails">
-          <li class="span11">
+          <li class="col-sm-11">
             <div class="thumbnail">
               <img src="assets/img/pta_champion.jpg">
             </div>
@@ -194,11 +183,8 @@
     <!-- end WHY slide -->
     <!-- start HOW image -->
     <div id="howBusytown" class="item">
-      <div class="row-fluid">
-	<div class="span12 nanograv-green blocklink"></div>
-      </div>
       <!-- start HOW text -->
-      <div class="span3">
+      <div class="col-sm-3">
 	<h3>How does NANOGrav work?</h3>
 	<p>
 	We use exotic objects called pulsars to create a "cosmic
@@ -210,9 +196,9 @@
       </div>
       <!-- end HOW text -->
       <!-- start HOW image -->
-      <div class="span8">
+      <div class="col-sm-8">
         <ul class="thumbnails">
-          <li class="span11">
+          <li class="col-sm-11">
             <div class="thumbnail">
               <img src="assets/img/pulsar.png">
             </div>
@@ -227,12 +213,9 @@
     <!-- end HOW slide -->
     <!-- start WHO slide -->
     <div id= "whoBusytown" class="item">
-      <div class="row-fluid">
-          <div class="span12"></div>
-      </div>
       <!-- start WHO text -->
-      <div class="row-fluid">
-      <div class="span4">
+      <div class="row">
+      <div class="col-sm-4">
         <h3>Who are we?</h3>
 	<p>
 	We are a diverse group of astronomers, physicists, and
@@ -245,9 +228,9 @@
       </div>
       <!-- end WHO text -->
       <!-- start WHO image -->
-      <div class="span8">
+      <div class="col-sm-8">
         <ul class="thumbnails">
-          <li class="span12">
+          <li class="col-sm-12">
             <div class="thumbnail">
               <img src="assets/img/no_shocker.png">
               <p>
@@ -264,11 +247,8 @@
     <!-- end WHO slide -->
     <!-- start WHERE slide -->
     <div id="whereBusytown" class="item">
-      <div class="row-fluid">
-        <div class="span12 nanograv-purple blocklink"></div>
-      </div>
       <!-- start WHERE text -->
-      <div class="span3">
+      <div class="col-sm-3">
 	<h3>Where can you find us?</h3>
 	<p>
 	NANOGrav members are located at over a dozen institutions
@@ -281,9 +261,9 @@
       </div>
       <!-- end WHERE text -->
       <!-- start WHERE image -->
-      <div class="span8">
+      <div class="col-sm-8">
         <ul class="thumbnails">
-          <li class="span11">
+          <li class="col-sm-11">
             <div class="thumbnail">
               <img src="assets/img/placeholder-where.png">
             </div>
@@ -295,11 +275,8 @@
     <!-- end WHERE slide -->
     <!-- begin WHEN slide -->
     <div id="whenBusytown" class="item">
-      <div class="row-fluid">
-        <div class="span12 nanograv-pink blocklink"></div>
-      </div>
       <!-- start WHEN text -->
-      <div class="span3">
+      <div class="col-sm-3">
 	<h3>When will NANOGrav find gravitational waves?</h3>
 	<p>
 	We believe that we will detect gravitational waves within the
@@ -312,9 +289,9 @@
       </div>
       <!-- end WHEN text -->
       <!-- begin WHEN image -->
-      <div class="span8">
+      <div class="col-sm-8">
         <ul class="thumbnails">
-          <li class="span11">
+          <li class="col-sm-11">
             <div class="thumbnail">
               <img src="assets/img/placeholder-when.png">
             </div>
@@ -330,9 +307,9 @@
   <!-- end question blocks and slides -->
   
   <!-- start news and events block -->
-  <div style="padding-top: 20px;" class="span3">
+  <div style="padding-top: 20px;" class="col-sm-3">
     <!-- start upcoming events area -->
-    <div style="padding: 10px;" class="nanograv-four row-fluid">
+    <div style="padding: 10px;" class="nanograv-four row">
       <h3>Upcoming Events</h3>
       <p>
         <dl>
@@ -343,7 +320,7 @@
     </div>
     <!-- end upcoming events area -->
     <!-- start news area -->
-    <div style="padding: 10px;" class="nanograv-four row-fluid">
+    <div style="padding: 10px;" class="nanograv-four row">
       <h3>NSF-AST Portfolio Review Response</h3>
       <p class="pull-right">
 	<a href="documents/NANOGravResponse.pdf"
@@ -368,21 +345,21 @@
   </div>
   <!-- end news and events block -->
   </div>
-  <div style="padding-top: 20px" class="text-center row-fluid"></div>
+  <div style="padding-top: 20px" class="text-center row"></div>
   </div>
   </div>
   </div> <!-- end content row -->
 
   <!-- end body content -->
   <!-- start footer -->
-  <div style="background: rgba(255,255,255,.4); padding: 10px;" class="row-fluid">
-  <div class="span1 text-center">
+  <div style="background: rgba(255,255,255,.4); padding: 10px;" class="row">
+  <div class="col-sm-1 text-center">
     <img src="assets/img/nsf1.gif">
   </div>
-  <div class="span2 text-center">
+  <div class="col-sm-2 text-center">
     <img src="assets/img/NSERC_C.jpg">
   </div>
-  <div class="span6">
+  <div class="col-sm-6">
     <p class="center small">
       <small>
         This material is based in part on work supported by the
@@ -395,13 +372,14 @@
       </small>
     </p>
   </div>
-  <div class="span3 text-center">
+  <div class="col-sm-3 text-center">
     <img src="assets/img/pire_f2.jpg">
   </div>
   </div>
   </div> <!-- end container -->
   <!-- end footer -->
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
-  <script src="assets/js/bootstrap.min.js"></script>
+  <script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.2/js/bootstrap.min.js"></script>
+  <!-- <script src="assets/js/bootstrap.min.js"></script> -->
 </body>
 </html>
