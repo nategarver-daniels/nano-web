@@ -13,13 +13,22 @@
   <link href="http://fonts.googleapis.com/css?family=Droid+Serif" rel="stylesheet" type="text/css">
   <link href="http://fonts.googleapis.com/css?family=Droid+Sans" rel="stylesheet" type="text/css">
   <link href="http://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
-  <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/css/nano-web.css">
 </head>
 
 <body style="padding-top: 50px;">
   <!-- start navbar/banner image -->
   <div class="navbar navbar-default navbar-fixed-top">
+  <div class="navbar-header">
+    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#nanograv-navbar-collapse">
+      <span class="sr-only">Toggle navigation</span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+    </button>
+    </div>
     <!-- start main menu -->
+    <div class="collapse navbar-collapse" id="nanograv-navbar-collapse">
     <ul class="nav navbar-nav">
       <li class="active"><a href="index.html">Home</a></li>
       <li><a href="astronomers/">For Astronomers</a></li>
@@ -33,92 +42,82 @@
     </ul>
     <!-- end main menu -->
     <!-- start social media icons -->
-    <ul class="nav navbar-nav pull-right">
-      <li>
-        <a href="mailto:info@nanograv.org">
+    <p class="navbar-text navbar-right">
+        <a class="navbar-link" href="mailto:info@nanograv.org">
           <i class="icon-large icon-envelope"></i>
         </a>
-      </li>
-      <li>
-        <a href="https://www.facebook.com/NANOGrav">
+        <a class="navbar-link" href="https://www.facebook.com/NANOGrav">
           <i class="icon-large icon-facebook"></i>
-	    </a>
-      </li>
-      <li>
-        <a href="https://plus.google.com/106957541466128747115" rel="publisher">
+	      </a>
+        <a class="navbar-link" href="https://plus.google.com/106957541466128747115" rel="publisher">
           <i class="icon-large icon-google-plus"></i>
         </a>
-      </li>
-      <li>
-        <a href="http://www.youtube.com/user/NANOGrav">
+        <a class="navbar-link" href="http://www.youtube.com/user/NANOGrav">
 	      <i class="icon-large icon-youtube"></i>
-	    </a>
-      </li>
-      <li>
-        <a href="outreach/podcasts.html">
+        </a>
+        <a class="navbar-link" href="outreach/podcasts.html">
 	      <i class="icon-large icon-microphone"></i>
         </a>
-      </li>
-    </ul>
+    </p>
+  </div>
     <!-- end social media icons -->
   </div> <!-- end navbar -->
   <!-- set up the body layout -->
   <div class="container"> <!-- start body container -->
-  <img src="assets/img/gravity3.png" class="img-responsive">
+  <img src="assets/img/gravity5.png" class="img-responsive">
   
   <!-- start body content -->
   
   <!-- start question blocks and slides -->
   <div class="row">
   <div class="col-sm-9">
-  <div class="row">
+    <ul class="nav nav-nanograv-justified nav-nanograv">
     <!-- start WHAT block -->
-    <div class="col-sm-2 text-center">
+      <li>
       <a href="#nanogravBusytown" data-slide-to="0">
-        <h3>WHAT</h3>
+        <h4>WHAT</h4>
       </a>
-    </div>
+      </li>
     <!-- end WHAT block -->
     <!-- start WHY block -->
-    <div class="col-sm-2 text-center">
+      <li>
       <a href="#nanogravBusytown" data-slide-to="1">
-        <h3>WHY?</h3>
+        <h4>WHY?</h4>
       </a>
-    </div>
+      </li>
     <!-- end WHY block -->
     <!-- start HOW block -->
-    <div class="col-sm-2 text-center">
+    <li>
       <a href="#nanogravBusytown" data-slide-to="2">
-        <h3>HOW?</h3>
+        <h4>HOW?</h4>
       </a>
-    </div>
+    </li>
     <!-- end HOW block -->
     <!-- start WHO block -->
-    <div class="col-sm-2 text-center">
+    <li>
       <a href="#nanogravBusytown" data-slide-to="3">
-        <h3>WHO?</h3>
+        <h4>WHO?</h4>
       </a>
-    </div>
+    </li>
     <!-- end WHO block -->
     <!-- start WHERE block -->
-    <div class="col-sm-2 text-center" >
+    <li>
       <a href="#nanogravBusytown" data-slide-to="4">
-        <h3>WHERE?</h3>
+        <h4>WHERE?</h4>
       </a>
-    </div>
+    </li>
     <!-- end WHERE block -->
     <!-- start WHEN block -->
-    <div class="col-sm-2 text-center">
+    <li>
       <a href="#nanogravBusytown" data-slide-to="5">
-        <h3>WHEN?</h3>
+        <h4>WHEN?</h4>
       </a>
-    </div>
+    </li>
     <!-- end WHEN block -->
-  </div>
+    </ul>
   <!-- end question blocks -->
   
   <!-- start slides -->
-  <div class="row">
   <div id="nanogravBusytown" class="carousel slide" data-interval="0">
   <div class="carousel-inner">
     <!-- start WHAT slide -->
@@ -292,13 +291,12 @@
   <!-- end WHEN slide -->
   </div> <!-- end carousel-inner -->
   </div> <!-- end carousel -->
-  </div>
   <!-- end question blocks and slides -->
   
   <!-- start news and events block -->
-  <div style="padding-top: 20px;" class="col-sm-3">
+  <div class="col-sm-3">
     <!-- start upcoming events area -->
-    <div style="padding: 10px;" class="nanograv-four row">
+    <div class="row">
       <h3>Upcoming Events</h3>
       <p>
         <dl>
@@ -309,7 +307,7 @@
     </div>
     <!-- end upcoming events area -->
     <!-- start news area -->
-    <div style="padding: 10px;" class="nanograv-four row">
+    <div class="row">
       <h3>NSF-AST Portfolio Review Response</h3>
       <p class="pull-right">
 	<a href="documents/NANOGravResponse.pdf"
