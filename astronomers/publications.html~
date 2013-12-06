@@ -81,7 +81,7 @@
 	<li><a href="tech.html">Technical Requirements</a></li>
 	<li><a href="data.html">Data &amp; Sources</a></li>
 	<li class="active"><a href="publications.html">Publications</a></li>
-	<!-- <li><a href="tools.html">Useful Tools</a></li> -->
+	<li><a href="tools.html">Useful Tools</a></li>
 	<li><a href="leadership.html">Governance</a></li>
 	<li><a href="meetings.html">Meetings</a></li>
 	<li><a href="membership.html">Get Involved</a></li>
@@ -94,7 +94,7 @@
   
   <div class="row-fluid">
   <div class="offset1 span6">
-    <h2>Publications by NANOGrav Members</h2> 
+    <h2>NANOGrav Publications</h2> 
     <h3>August 2012 &ndash; July 2013</h3>
     <p>
       <ol>
