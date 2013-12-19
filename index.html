@@ -19,6 +19,7 @@
 <body style="padding-top: 50px;">
   <!-- start navbar/banner image -->
   <div class="navbar navbar-default navbar-fixed-top">
+  <div class="container">
   <div class="navbar-header">
     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#nanograv-navbar-collapse">
       <span class="sr-only">Toggle navigation</span>
@@ -42,6 +43,7 @@
     </ul>
     <!-- end main menu -->
     <!-- start social media icons -->
+    <!--
     <p class="navbar-text navbar-right">
         <a class="navbar-link" href="mailto:info@nanograv.org">
           <i class="icon-large icon-envelope"></i>
@@ -59,6 +61,8 @@
 	      <i class="icon-large icon-microphone"></i>
         </a>
     </p>
+    -->
+  </div>
   </div>
     <!-- end social media icons -->
   </div> <!-- end navbar -->
@@ -71,59 +75,47 @@
   <!-- start question blocks and slides -->
   <div class="row">
   <div class="col-sm-9">
-    <div class="row"
+    <div style="padding-top: 5px;" class="btn-group btn-group-justified" data-toggle="buttons">
     <!-- start WHAT block -->
-      <div class="col-sm-2">
-      <button type="button" class="btn btn-primary btn-block btn-lg" href="#nanogravBusytown" data-slide-to="0">
+      <a role="button" class="btn btn-what btn-lg" href="#nanogravBusytown" data-slide-to="0">
         WHAT
-      </button>
-      </div>
+      </a
     <!-- end WHAT block -->
     <!-- start WHY block -->
-      <div class="col-sm-2">
-      <button type="button" class="btn btn-primary btn-block btn-lg" href="#nanogravBusytown" data-slide-to="1">
+      <a role="button" class="btn btn-why btn-lg" href="#nanogravBusytown" data-slide-to="1">
         WHY?
-      </button>
-      </div>
+      </a>
     <!-- end WHY block -->
     <!-- start HOW block -->
-      <div class="col-sm-2">
-        <button type="button" class="btn btn-primary btn-block btn-lg" href="#nanogravBusytown" data-slide-to="2">
+        <a role="button" class="btn btn-how btn-lg" href="#nanogravBusytown" data-slide-to="2">
           HOW?
-        </button>
-      </div>
+        </a>
     <!-- end HOW block -->
     <!-- start WHO block -->
-      <div class="col-sm-2">
-      <button type="button" class="btn btn-primary btn-block btn-lg" href="#nanogravBusytown" data-slide-to="3">
+      <a role="button" class="btn btn-who btn-lg" href="#nanogravBusytown" data-slide-to="3">
         WHO?
-      </button>
-      </div>
+      </a>
     <!-- end WHO block -->
     <!-- start WHERE block -->
-      <div class="col-sm-2">
-      <button type="button" class="btn btn-primary btn-block btn-lg" href="#nanogravBusytown" data-slide-to="4">
+      <a role="button" class="btn btn-where btn-lg" href="#nanogravBusytown" data-slide-to="4">
         WHERE?
-      </button>
-      </div>
+      </a>
     <!-- end WHERE block -->
     <!-- start WHEN block -->
-      <div class="col-sm-2">
-      <button type="button" class="btn btn-primary btn-block btn-lg" href="#nanogravBusytown" data-slide-to="5">
+      <a role="button" class="btn btn-when btn-lg" href="#nanogravBusytown" data-slide-to="5">
         WHEN?
-      </button>
-      </div>
+      </a>
     <!-- end WHEN block -->
     </div>
   <!-- end question blocks -->
-  
+     
   <!-- start slides -->
   <div id="nanogravBusytown" class="carousel slide" data-interval="0">
   <div class="carousel-inner">
     <!-- start WHAT slide -->
     <div id="whatBusytown" class="item active">
       <!-- start WHAT text -->
-<!--      <div class="col-sm-3">
+    <div class="col-sm-3">
 	<h3>What is NANOGrav?</h3>
         <p>
 	NANOGrav is a collaboration of scientists working to detect
@@ -133,10 +125,20 @@
 	<p>
 	<a href="science/">Get to know NANOGrav</a>
 	</p>
+        <p>
+        <b>About this image:</b> Clockwise from top left: NANOGrav
+        members gather at the Arecibo observatory; an artist's
+        impression of a pulsar, an exotic object that we are using to
+        search for gravitational waves; and the the Arecibo and Green
+        Bank Telescopes, the two most important telescopes for
+        NANOGrav.
+        </p>
       </div>
- -->     <!-- end WHAT text -->
+     <!-- end WHAT text -->
       <!-- begin WHAT image -->
-      <img src="assets/img/nanograv_sensitivity.png">
+      <div class="col-sm-9">
+              <img class="img-responsive" src="assets/img/collage.jpg">
+      </div>
       <!-- end WHAT image -->
     </div>
     <!-- end WHAT slide -->
@@ -151,20 +153,20 @@
 	Universe.
 	</p>
 	<p>
-	<a href="science/newfrontiers.html">Explore a new
-	  frontier in astronomy</a>
+	<a href="science/gravitywaves.html">Learn more about
+	gravitational waves</a>
 	</p>
+        <p>
+        <b>About this image:</b> An artist's impression of two merging
+        black holes.  The blue waves represent gravitational waves,
+        which actually emit no light.  NANOGrav will be sensitive to
+        systems like this.  Image credit: NASA
+        </p>
       </div>
       <!-- end WHY text -->
       <!-- start WHY image -->
-      <div class="col-sm-8">
-        <ul class="thumbnails">
-          <li class="col-sm-11">
-            <div class="thumbnail">
-              <img src="assets/img/pta_champion.jpg">
-            </div>
-          </li>
-        </ul>
+      <div class="col-sm-9">
+              <img class="img-responsive" src="assets/img/bh_gws.png">
       </div>
       <!-- end WHY image -->
     </div> 
@@ -181,6 +183,11 @@
 	<p>
 	<a href="science/pta.html">Learn more about pulsars</a>
 	</p>
+        <p>
+        <b>About this image:</b> A schematic diagram of a pulsar
+        timing array.  NANOGrav uses this technique to detect the
+        influence of gravitational waves on the Earth.
+        </p>
       </div>
       <!-- end HOW text -->
       <!-- start HOW image -->
@@ -188,11 +195,8 @@
         <ul class="thumbnails">
           <li class="col-sm-11">
             <div class="thumbnail">
-              <img src="assets/img/pulsar.png">
+              <img src="assets/img/pta_champion.jpg">
             </div>
-            <p>
-            Image Credit: Oona Räisänen, based on work by Roy Smits
-	    </p>
           </li>
         </ul>
       </div>
@@ -207,12 +211,16 @@
         <h3>Who are we?</h3>
 	<p>
 	We are a diverse group of astronomers, physicists, and
-	engineers and include senior scientists, postdoctoral fellows,
-	and graduate and undergraduate students.
+	engineers comprised of senior scientists, postdoctoral
+	fellows, and graduate and undergraduate students.
 	</p>
 	<p>
-	<a href="participants.html">Meet the NANOGrav team</a>
+	<a href="people/">Meet the NANOGrav team</a>
 	</p>
+        <p>
+        <b>About this image:</b> NANOGrav members gather for a group
+        photo at our Fall 2012 meeting at Oberlin College.
+        </p>
       </div>
       <!-- end WHO text -->
       <!-- start WHO image -->
@@ -221,10 +229,6 @@
           <li class="col-sm-12">
             <div class="thumbnail">
               <img src="assets/img/no_shocker.png">
-              <p>
-	      NANOGrav members gather for a group photo at our Fall
-	      2012 meeting at Oberlin College.
-	      </p>
             </div>
           </li>
         </ul>
@@ -244,8 +248,12 @@
 	from around the world.
 	</p>
 	<p>
-	<a href="institutions.html">Find NANOGrav near you</a>
+	<a href="partners/">Find NANOGrav near you</a>
 	</p>
+        <p>
+        <b>About this image:</b> The location of NANOGrav member
+        institutions across the United States and Canada.
+        </p>
       </div>
       <!-- end WHERE text -->
       <!-- start WHERE image -->
@@ -253,7 +261,7 @@
         <ul class="thumbnails">
           <li class="col-sm-11">
             <div class="thumbnail">
-              <img src="assets/img/placeholder-where.png">
+              <img src="assets/img/nanograv_map.jpg">
             </div>
           </li>
         </ul>
@@ -267,13 +275,25 @@
       <div class="col-sm-3">
 	<h3>When will NANOGrav find gravitational waves?</h3>
 	<p>
-	We believe that we will detect gravitational waves within the
+	We predict that we will detect gravitational waves within the
 	next decade.  But detection is only the first step towards
 	ushering in a new era of gravitaional wave astronomy.
 	</p>
 	<p>
-	<a href="#">PLACEHOLDER TEXT</a>
+	<a href="science/newfrontiers.html">Explore a new
+	  frontier in astronomy</a>
 	</p>
+        <p>
+        <b>About this image:</b> In this graph, solid lines represent
+        the sensitivity of current and future gravitational wave
+        experiments (regions above the lines can be detected).  The
+        shaded regions show the expected strength of gravitational
+        waves from various sources according to different models.
+        Pulsar timing arrays are towards the left, at the lowest
+        frequencies, and are expected to make a detection of
+        supermassive black holes or cosmic strings by no later than
+        2020.
+        </p>
       </div>
       <!-- end WHEN text -->
       <!-- begin WHEN image -->
@@ -281,7 +301,7 @@
         <ul class="thumbnails">
           <li class="col-sm-11">
             <div class="thumbnail">
-              <img src="assets/img/placeholder-when.png">
+              <img src="assets/img/nanograv_sensitivity.png">
             </div>
           </li>
         </ul>
@@ -296,37 +316,58 @@
   <!-- start news and events block -->
   <div class="col-sm-3">
     <!-- start upcoming events area -->
+      <div style="padding-top:5px;" class="row">
+        <div class="col-sm-12 text-right">
+        <a href="mailto:info@nanograv.org">
+          <i class="icon-large icon-envelope"></i>
+        </a>
+        <a href="https://www.facebook.com/NANOGrav">
+          <i class="icon-large icon-facebook"></i>
+	      </a>
+        <a  href="https://plus.google.com/106957541466128747115" rel="publisher">
+          <i class="icon-large icon-google-plus"></i>
+        </a>
+        <a href="http://www.youtube.com/user/NANOGrav">
+	      <i class="icon-large icon-youtube"></i>
+        </a>
+        <a  href="outreach/podcasts.html">
+	      <i class="icon-large icon-microphone"></i>
+        </a>
+        </div>
+      </div>
     <div class="row">
+      <div class="col-sm-12">
       <h3>Upcoming Events</h3>
       <p>
         <dl>
-          <dt>10/21/2013 - 10/23/2013</dt>
-	  <dd> All NANOGrav meeting at Franklin &amp Marshall</dd>
+          <dt>02/05/2014 - 02/07/2014</dt>
+	  <dd> All NANOGrav meeting at the Arecibo Observatory</dd>
         </dl>
       </p>
+      </div>
     </div>
     <!-- end upcoming events area -->
     <!-- start news area -->
     <div class="row">
-      <h3>NSF-AST Portfolio Review Response</h3>
-      <p class="pull-right">
-	<a href="documents/NANOGravResponse.pdf"
-	data-original-title="" title="">Full Response</a>
-      </p>
-      <p>
-      Gravitational waves (GWs) are ripples in space-time that are
-      known to exist but have not yet been detected directly. Once
-      they are, a key feature of any viable theory of gravity will be
-      demonstrated and a new window on the universe opened. GW
-      astronomy was named as one of five key discovery areas in the
-      "New Worlds and New Horizons" Decadal Report. Pulsar timing
-      probes GW frequencies, and hence source classes, that are
-      inaccessible to any other detection method and can uniquely
-      constrain the nonlinear nature of General Relativity. Pulsar
-      timing is therefore a critical capability with its own discovery
-      space and potential. <strong>Fulfilling this capability requires
-      the complementary enabling features of both the Green Bank
-      Telescope (GBT) and the Arecibo Observatory.</strong></p>
+      <div class="col-sm-12">
+        <h3>NSF-AST Portfolio Review Response</h3>
+        <p class="pull-right">
+        <a href="documents/NANOGravResponse.pdf">Full Response</a>
+        <br />
+        Gravitational waves (GWs) are ripples in space-time that are
+        known to exist but have not yet been detected directly. Once
+        they are, a key feature of any viable theory of gravity will be
+        demonstrated and a new window on the universe opened. GW
+        astronomy was named as one of five key discovery areas in the
+        "New Worlds and New Horizons" Decadal Report. Pulsar timing
+        probes GW frequencies, and hence source classes, that are
+        inaccessible to any other detection method and can uniquely
+        constrain the nonlinear nature of General Relativity. Pulsar
+        timing is therefore a critical capability with its own discovery
+        space and potential. <strong>Fulfilling this capability requires
+        the complementary enabling features of both the Green Bank
+        Telescope (GBT) and the Arecibo Observatory.</strong></p>
+      </div>
     </div>
     <!-- end news area -->
   </div>
@@ -352,9 +393,9 @@
         This material is based in part on work supported by the
         National Science Foundation under Grant
         Number <a href="http://www.nsf.gov/awardsearch/showAward?AWD_ID=0968296&amp;HistoricalAwards=false">968296</a>. Any
-        opinions, findings and conclusions ro recommendations
+        opinions, findings and conclusions or recommendations
         expressed in this material are those of the author(s) and do
-        not necessarily reflect the veiws of the National Science
+        not necessarily reflect the views of the National Science
         Foundation.
       </small>
     </p>
@@ -367,6 +408,16 @@
   <!-- end footer -->
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
   <script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.2/js/bootstrap.min.js"></script>
+  <script type="text/javascript">
+    $(function () {
+      $('body').popover({
+        selector: '[data-toggle="popover"]'
+      });
+      $('body').tooltip({
+        selector: 'a[rel="tooltip"], [data-toggle="tooltip"]'
+      });
+    });
+  </script>
   <!-- <script src="assets/js/bootstrap.min.js"></script> -->
 </body>
 </html>
