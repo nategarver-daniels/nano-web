@@ -5981,3 +5981,71 @@ fieldset[disabled] .btn-where.active {
   color: #008000;
   background-color: #ffffff;
 }
+.nav-nanograv > li {
+  float: left;
+}
+.nav-nanograv > li:nth-child(1) {
+  background-color: #293b92;
+}
+.nav-nanograv > li:nth-child(2) {
+  background-color: #2661aa;
+}
+.nav-nanograv > li:nth-child(3) {
+  background-color: #23a8e0;
+}
+.nav-nanograv > li:nth-child(4) {
+  background-color: #006400;
+}
+.nav-nanograv > li:nth-child(5) {
+  background-color: #008000;
+}
+.nav-nanograv > li:nth-child(6) {
+  background-color: #9acd32;
+}
+.nav-nanograv > li > a {
+  border-radius: 0px;
+  color: #fff;
+}
+.nav-nanograv > li.active > a,
+.nav-nanograv > li.active > a:hover,
+.nav-nanograv > li.active > a:focus {
+  color: #ffffff;
+  background-color: #428bca;
+}
+.nav-nanograv > li.active > a .caret,
+.nav-nanograv > li.active > a:hover .caret,
+.nav-nanograv > li.active > a:focus .caret {
+  border-top-color: #ffffff;
+  border-bottom-color: #ffffff;
+}
+.nav-nanograv > li.active > a .question,
+.nav-nanograv > li.active > a:hover .question,
+.nav-nanograv > li.active > a:focus .question {
+  display: none;
+}
+.nav-nanograv > li:not(:first-child):not(:last-child):not(.dropdown-toggle) > a {
+  border-radius: 0;
+}
+.nav-nanograv-justified {
+  width: 100%;
+}
+.nav-nanograv-justified > li {
+  float: none;
+}
+.nav-nanograv-justified > li > a {
+  text-align: center;
+  margin-bottom: 5px;
+}
+.nav-nanograv-justified > .dropdown .dropdown-menu {
+  top: auto;
+  left: auto;
+}
+@media (min-width: 768px) {
+  .nav-nanograv-justified > li {
+    display: table-cell;
+    width: 1%;
+  }
+  .nav-nanograv-justified > li > a {
+    margin-bottom: 0;
+  }
+}

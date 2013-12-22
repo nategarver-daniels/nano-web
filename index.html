@@ -42,26 +42,6 @@
       <li><a href="links/">Links</a></li>
     </ul>
     <!-- end main menu -->
-    <!-- start social media icons -->
-    <!--
-    <p class="navbar-text navbar-right">
-        <a class="navbar-link" href="mailto:info@nanograv.org">
-          <i class="icon-large icon-envelope"></i>
-        </a>
-        <a class="navbar-link" href="https://www.facebook.com/NANOGrav">
-          <i class="icon-large icon-facebook"></i>
-	      </a>
-        <a class="navbar-link" href="https://plus.google.com/106957541466128747115" rel="publisher">
-          <i class="icon-large icon-google-plus"></i>
-        </a>
-        <a class="navbar-link" href="http://www.youtube.com/user/NANOGrav">
-	      <i class="icon-large icon-youtube"></i>
-        </a>
-        <a class="navbar-link" href="outreach/podcasts.html">
-	      <i class="icon-large icon-microphone"></i>
-        </a>
-    </p>
-    -->
   </div>
   </div>
     <!-- end social media icons -->
@@ -75,44 +55,23 @@
   <!-- start question blocks and slides -->
   <div class="row">
   <div class="col-lg-9">
-    <div style="padding-top: 5px; padding-bottom: 5px;" class="btn-group btn-group-justified" data-toggle="buttons">
-    <!-- start WHAT block -->
-      <a type="radio" role="button" class="btn btn-what" href="#nanogravBusytown" data-slide-to="0">
-        WHAT
-      </a
-    <!-- end WHAT block -->
-    <!-- start WHY block -->
-      <a type="radio" role="button" class="btn btn-why" href="#nanogravBusytown" data-slide-to="1">
-        WHY?
-      </a>
-    <!-- end WHY block -->
-    <!-- start HOW block -->
-        <a type="radio" role="button" class="btn btn-how" href="#nanogravBusytown" data-slide-to="2">
-          HOW?
-        </a>
-    <!-- end HOW block -->
-    <!-- start WHO block -->
-      <a type="radio" role="button" class="btn btn-who" href="#nanogravBusytown" data-slide-to="3">
-        WHO?
-      </a>
-    <!-- end WHO block -->
-    <!-- start WHERE block -->
-      <a type="radio" role="button" class="btn btn-where" href="#nanogravBusytown" data-slide-to="4">
-        WHERE?
-      </a>
-    <!-- end WHERE block -->
-    <!-- start WHEN block -->
-      <a type="radio" role="button" class="btn btn-when" href="#nanogravBusytown" data-slide-to="5">
-        WHEN?
-      </a>
-    <!-- end WHEN block -->
-    </div>
+  <div class="row">
+    <div class="col-lg-12">
+    <ul class="nav nav-nanograv nav-nanograv-justified">
+      <li class="active"><a data-toggle="pill" href="#whatBusytown">WHAT<span class="question">?</span></a></li>
+      <li><a data-toggle="pill" href="#whyBusytown"> WHY<span class="question">?</span></a></li>
+      <li><a data-toggle="pill" href="#howBusytown">HOW<span class="question">?</span></a></li>
+      <li><a data-toggle="pill" href="#whoBusytown">WHO<span class="question">?</span></a></li>
+      <li><a data-toggle="pill" href="#whereBusytown">WHERE<span class="question">?</span></a></li>
+      <li><a data-toggle="pill" href="#whenBusytown">WHEN<span class="question">?</span></a></li>
+    </ul>
+   </div>
+  </div>
   <!-- end question blocks -->
-  <!-- start slides -->
-  <div id="nanogravBusytown" class="carousel slide" data-interval="0">
-  <div class="carousel-inner">
+  <!-- start tabs -->
     <!-- start WHAT slide -->
-    <div id="whatBusytown" class="item active">
+  <div class="tab-content">
+    <div id="whatBusytown" class="tab-pane active">
       <!-- start WHAT text -->
     <div class="col-lg-3">
 	<h3>What is NANOGrav?</h3>
@@ -143,7 +102,7 @@
     </div>
     <!-- end WHAT slide -->
     <!-- start WHY slide -->
-    <div id = "whyBusytown" class="item">
+    <div id = "whyBusytown" class="tab-pane">
       <!-- start HOW text -->
       <div class="col-lg-3">
        	<h3>Why study gravitational waves?</h3>
@@ -172,7 +131,7 @@
     </div> 
     <!-- end WHY slide -->
     <!-- start HOW image -->
-    <div id="howBusytown" class="item">
+    <div id="howBusytown" class="tab-pane">
       <!-- start HOW text -->
       <div class="col-lg-3">
 	<h3>How does NANOGrav work?</h3>
@@ -198,7 +157,7 @@
     </div>
     <!-- end HOW slide -->
     <!-- start WHO slide -->
-    <div id= "whoBusytown" class="item">
+    <div id= "whoBusytown" class="tab-pane">
       <!-- start WHO text -->
       <div class="row">
       <div class="col-lg-3">
@@ -226,7 +185,7 @@
     </div>
     <!-- end WHO slide -->
     <!-- start WHERE slide -->
-    <div id="whereBusytown" class="item">
+    <div id="whereBusytown" class="tab-pane">
       <!-- start WHERE text -->
       <div class="col-lg-3">
 	<h3>Where can you find us?</h3>
@@ -252,7 +211,7 @@
     </div>
     <!-- end WHERE slide -->
     <!-- begin WHEN slide -->
-    <div id="whenBusytown" class="item">
+    <div id="whenBusytown" class="tab-pane">
       <!-- start WHEN text -->
       <div class="col-lg-3">
 	<h3>When will NANOGrav find gravitational waves?</h3>
@@ -284,9 +243,8 @@
       </div>
     </div>
   </div>
+  </div>
   <!-- end WHEN slide -->
-  </div> <!-- end carousel-inner -->
-  </div> <!-- end carousel -->
   <!-- end question blocks and slides -->
   
   <!-- start news and events block -->
@@ -313,20 +271,30 @@
       </div>
     <div class="row">
       <div class="col-lg-12">
-      <h3>Upcoming Events</h3>
-      <p>
+      <div class="panel panel-default">
+       <div class="panel-heading">     
+         Events
+       </div>
+       <div class="panel-body"> 
+       <p>
         <dl>
           <dt>02/05/2014 - 02/07/2014</dt>
 	  <dd> All NANOGrav meeting at the Arecibo Observatory</dd>
         </dl>
       </p>
+        </div>
+      </div>
       </div>
     </div>
     <!-- end upcoming events area -->
     <!-- start news area -->
     <div class="row">
       <div class="col-lg-12">
-        <h3>NSF-AST Portfolio Review Response</h3>
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            News
+          </div>
+          <div class="panel-body">
         <p class="pull-right">
         <a href="documents/NANOGravResponse.pdf">Full Response</a>
         <br />
@@ -343,6 +311,8 @@
         space and potential. <strong>Fulfilling this capability requires
         the complementary enabling features of both the Green Bank
         Telescope (GBT) and the Arecibo Observatory.</strong></p>
+      </div>
+      </div>
       </div>
     </div>
     <!-- end news area -->
@@ -381,7 +351,6 @@
   <!-- end footer -->
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
   <script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
-  <script src="assets/js/button.js"></script>
   <script type="text/javascript">
     $(function () {
       $('body').popover({
