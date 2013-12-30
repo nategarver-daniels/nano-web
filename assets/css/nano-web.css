@@ -5987,6 +5987,11 @@ fieldset[disabled] .btn-where.active {
 .nav-nanograv > li:nth-child(1) {
   background-color: #293b92;
 }
+.nav-nanograv > li:nth-child(1) .active > a,
+.nav-nanograv > li:nth-child(1) .active > a:hover,
+.nav-nanograv > li:nth-child(1) .active > a:focus {
+  background-color: #23337e;
+}
 .nav-nanograv > li:nth-child(2) {
   background-color: #2661aa;
 }
@@ -6005,12 +6010,6 @@ fieldset[disabled] .btn-where.active {
 .nav-nanograv > li > a {
   border-radius: 0px;
   color: #fff;
-}
-.nav-nanograv > li.active > a,
-.nav-nanograv > li.active > a:hover,
-.nav-nanograv > li.active > a:focus {
-  color: #ffffff;
-  background-color: #428bca;
 }
 .nav-nanograv > li.active > a .caret,
 .nav-nanograv > li.active > a:hover .caret,
