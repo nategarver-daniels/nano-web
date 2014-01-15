@@ -8,22 +8,29 @@
   <meta name="copyright" content="Copyright (c) 2013 NANOGrav">
   <meta name="description" content="NANOGrav is a collaboration of astronomers, physicists, and engineers from over a dozen universities, colleges, and observatories across North America. We include faculty, scientific staff, postdoctoral scholars, graduate students, and undergraduate students, and high school students.  Our goal is to directly detect gravitational waves --- tiny ripples in space-time --- and use them to study the Universe by measuring their effect on radio wave signals traveling to the Earth from pulsars --- rapidly rotating neutron stars. Our measurements are most sensitive to gravitational waves with periods of a few years, which corresponds to frequencies of a few nanohertz --- hence the NANO in our name, NANOGrav. The strongest sources of such gravitational waves are likely to be binary systems in which two massive black holes orbit one another. Such binary systems form when galaxies merge with one another.">
   <meta name="keywords" content="pulsars,gravitational waves,pulsar timing array,gravity,neutron star">
-  <link href="../assets/css/bootstrap.css" rel="stylesheet" media="screen">
-  <link href="../assets/css/nanograv.css" rel="stylesheet" media="screen">
+  <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css">
+ <!-- <link href="assets/css/nanograv.css" rel="stylesheet" media="screen"> -->
   <link href="http://fonts.googleapis.com/css?family=Droid+Serif" rel="stylesheet" type="text/css">
   <link href="http://fonts.googleapis.com/css?family=Droid+Sans" rel="stylesheet" type="text/css">
   <link href="http://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
-  <link href="../assets/css/bootstrap-responsive.css" rel="stylesheet" media="screen">
+  <link rel="stylesheet" href="../assets/css/nano-web.css">
 </head>
 
-<body style="padding: 40px;">
-  <div class="container-fluid"> <!-- start body container -->
+<body style="padding-top: 50px;">
   <!-- start navbar/banner image -->
-  <div class="navbar navbar-inverse navbar-fixed-top">
-  <div class="navbar-inner">
+  <div class="navbar navbar-default navbar-fixed-top">
   <div class="container">
+  <div class="navbar-header">
+    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#nanograv-navbar-collapse">
+      <span class="sr-only">Toggle navigation</span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+    </button>
+    </div>
     <!-- start main menu -->
-    <ul class="nav">
+    <div class="collapse navbar-collapse" id="nanograv-navbar-collapse">
+    <ul class="nav navbar-nav">
       <li><a href="../index.html">Home</a></li>
       <li class="active"><a href="../astronomers/">For Astronomers</a></li>
       <li><a href="../science/">Science</a></li>
@@ -35,47 +42,16 @@
       <li><a href="../links/">Links</a></li>
     </ul>
     <!-- end main menu -->
-      <!-- start social media icons -->
-    <ul class="nav pull-right">
-      <li>
-        <a href="mailto:info@nanograv.org">
-          <i class="icon-large icon-envelope"></i>
-        </a>
-      </li>
-      <li>
-        <a href="https://www.facebook.com/NANOGrav">
-          <i class="icon-large icon-facebook"></i>
-        </a>
-      </li>
-      <li>
-        <a href="https://plus.google.com/106957541466128747115" rel="publisher">
-          <i class="icon-large icon-google-plus"></i>
-        </a>
-      </li>
-      <li>
-        <a href="http://www.youtube.com/user/NANOGrav">
-          <i class="icon-large icon-youtube"></i>
-        </a>
-      </li>
-      <li>
-        <a href="outreach/podcasts.html">
-          <i class="icon-large icon-microphone"></i>
-        </a>
-      </li>
-    </ul>
+  </div>
+  </div>
     <!-- end social media icons -->
-</div> <!-- end container -->
-  </div> <!-- end navbar-inner -->
   </div> <!-- end navbar -->
   <!-- set up the body layout -->
-  <div style="background-color: rgba(255,255,255,0);" class="row-fluid">
-  <div class="row-fluid">
-    <img src="../assets/img/gravity3.png">
-  </div> <!-- end row-fluid -->
+  <div class="container"> <!-- start body container -->
+    <img class="img-responsive" src="../assets/img/gravity5.png"></img>
   <!-- start subnavbar -->
-  <div class="navbar navbar-inverse">
-    <div class="navbar-inner">
-      <ul class="nav">
+  <div class="navbar navbar-default">
+      <ul class="nav navbar-nav">
 	<li><a href="index.html">Introduction</a></li>
 	<li><a href="science.html">Science Goals</a></li>
 	<li><a href="tech.html">Technical Requirements</a></li>
@@ -86,15 +62,15 @@
 	<li><a href="meetings.html">Meetings</a></li>
 	<li><a href="membership.html">Get Involved</a></li>
       </ul>
-    </div>
   <!-- end subnavbar -->
-  </div> <!-- end row-fluid -->
+  </div> <!-- end row -->
   
   <!-- start body content -->
-
-  <div class="row-fluid">
-  <div class="offset1 span6">
-    <h2>NANOGrav Management Team</h2>
+  
+  <div class="row">
+  <div class="col-sm-offset-2 col-sm-10">
+    <div class="col-sm-6">
+    <h2>Management Team</h2>
     <table class="table table-striped">
       <tr>
 	<td>Chair</td>
@@ -127,24 +103,39 @@
 	<td>Franklin &amp; Marshall</td>
       </tr>
     </table>
-  </div>
-  <div class="offset1 span6">
-  <div class="row">
-    <h2>NANOGrav Working Group Leads</h2>
+    </div>
+    <div class="col-sm-6">
+    <h2>Working Group Leads</h2>
     <table class="table table-striped">
       <tr>
-        <td>Timing</td>
-	<td>David Nice</td>
-	<td>Lafayette College</td>
+	<td>Astrophysics</td>
+	<td>Sarah Burke-Spolaor</td>
+	<td>NASA Jet Propulsion Laboratory</td>
+      </tr>
+      <tr>
+        <td>Cyber-Infrastructure</td><td>Robert
+        Ferdman </td>
+	<td>McGill University</td>
+      </tr>
+        <td>Data Analysis</td>
+	<td>Xavier Siemens</td>
+	<td>University of Wisconsin-Milwaukee</td>
+      </tr>
+      <tr>
+        <td>Education and Outreach</td>
+	<td>Ryan Lynch</td><td>McGill University</td>
+      </tr>
+      <tr>
+        <td>Instrumentation</td>
+	<td>Scott Ransom</td><td>NRAO</td>
+      </tr>
+      <tr>
+        <td>International Engagement</td>
+	<td>Andrea Lommen</td><td>Franklin &amp; Marshall College</td>
       </tr>
       <tr>
         <td>Interstellar Medium Mitigation</td>
 	<td>Dan Stinebring</td><td>Oberlin College</td>
-      </tr>
-      <tr>
-        <td>Data Analysis</td>
-	<td>Xavier Siemens</td>
-	<td>University of Wisconsin-Milwaukee</td>
       </tr>
        <tr>
         <td>Noise Budget</td>
@@ -157,360 +148,139 @@
 	<td>West Virginia University</td>
       </tr>
       <tr>
-	<td>Astrophysics</td>
+	<td>Sources</td>
 	<td>Sarah Burke-Spolaor</td>
 	<td>NASA Jet Propulsion Laboratory</td>
-      </tr>
-      <tr>
-        <td>Instrumentation</td>
-	<td>Scott Ransom</td><td>NRAO</td>
-      </tr>
-      <tr>
-        <td>Cyber-Infrastructure</td><td>Robert
-        Ferdman </td>
-	<td>McGill University</td>
-      </tr>
-      <tr>
-        <td>Education and Outreach</td>
-	<td>Ryan Lynch</td><td>McGill University</td>
-      </tr>
-      <tr>
-        <td>International Engagement</td>
-	<td>Andrea Lommen</td><td>Franklin &amp; Marshall College</td>
       </tr>
       <tr>
         <td>Strategic Planning</td>
 	<td>Jim Cordes</td>
 	<td>Cornell University</td>
       </tr>
+      <tr>
+        <td>Timing</td>
+	<td>David Nice</td>
+	<td>Lafayette College</td>
+      </tr>
     </table>
-    <a id="bylaws" style="text-decoration: none"></a>
-    <h2>By Laws</h2>
-    <h3>1. Purpose</h3>
-    <p>
-    The North American Nanohertz Observatory for Gravitational Waves
-    (NANOGrav) is a collaboration of researchers who are actively
-    engaged in using North American radio telescopes to detect and
-    study gravitational waves via pulsar timing.
-    </p>
-    <p>
-    In order to further this purpose, the members of NANOGrav work to
-    obtain observing time on relevant telescopes, advance
-    instrumentation and algorithms, obtain funding, publish relevant
-    research results, and engage their professional colleagues,
-    potential sponsors, and the public regarding the detection and
-    study of gravitational waves via pulsar timing. NANOGrav is one of
-    the founding members of the International Pulsar Timing Array
-    (IPTA) and collaborates with its international partners in
-    advancing the goal of the detection and study of gravitational
-    waves. The foregoing activities illustrate the range, but shall
-    not be taken to preclude other activities that would advance the
-    purposes of NANOGrav.
-    </p>
-    <h3>2. Membership</h3>
-    <p>
-    Membership of NANOGrav is open to any researcher or institution
-    that can make a meaningful contribution to furthering the goals of
-    NANOGrav. The NANOGrav Membership Policy describes levels of
-    Membership and the process by which researchers and institutions
-    can join and sustain their Membership in NANOGrav.
-    </p>
-    <h3>3. Officers</h3>
-    <p>
-    Officers of NANOGrav shall consist of a Chair, a Management Team,
-    and representatives to the IPTA Steering Committee.
-    </p>
-    <p>
-    The Collaboration shall elect a Chair to represent its interests
-    to the larger community and to act in an executive capacity for
-    the Collaboration.
-    </p>
-    <p>
-    All Senior Personnel are eligible to stand for election to the
-    position of Chair. The Chair serves for a term of two
-    years.<sup>1</sup> A person may serve no more than two consecutive
-    terms in the position of Chair, but may be re-elected as Chair at
-    a later time. The Chair may designate a member of the Management
-    Team to act in his/her absence for a limited duration.
-    </p>
-    <p>
-    If the Chair resigns or is no longer a member, the Management Team
-    shall select one of its members to serve in the position of Chair
-    until the election can be held. The election to select a person to
-    serve the remaining term of the Chair shall be conducted as soon
-    as reasonably possible. After completing the remaining term, the
-    individual thus elected shall be eligible to stand for only a
-    single consecutive subsequent term as Chair.
-    </p>
-    <p>
-    The Management Team for the Collaboration shall be composed of the
-    Chair of NANOGrav and four Senior Personnel. The Chair of NANOGrav
-    is also the Chair of the Management Team. The Management Team has
-    the power to plan future activities, conduct an annual review of
-    NANOGrav Membership, arbitrate disputes, and conduct other
-    functions that are necessary in order to ensure that the
-    Collaboration is able to further its purpose. If the Chair is
-    required to act in an executive capacity, the Chair shall take
-    reasonable steps to ensure that the advice of the other Management
-    Team members is obtained. The Chair shall report all actions
-    undertaken and any decisions taken, either individually or by the
-    Management Team, on a regular basis to the Collaboration.
-    </p>
-    <p>
-    Management Team positions are elected two-year positions. Upon
-    ratification of these by-laws, the Management Team positions shall
-    be divided into two classes. The positions of the first class
-    shall be vacated at the end of the existing term of the Management
-    Team.<sup>2</sup> The positions of the second class shall be
-    vacated one year following the end of the existing term of the
-    Management Team. The Management Team shall have at least one
-    person based at a Canadian institution and at least one person
-    based at a U.S. institution.
-    </p>
-    <p>
-    The previous Chair shall serve on the Management Team in a
-    non-voting capacity for at least one year following the expiration
-    of that person’s term as Chair.
-    </p>
-    <p>
-    If a member of the Management Team resigns or is no longer a
-    member of NANOGrav, an election to replace that member shall be
-    conducted as soon as reasonably possible, unless that position of
-    the Management Team would have been vacated in less than six
-    months.
-    </p>
-    <p>
-    Two Senior Personnel of NANOGrav shall serve on the IPTA Steering
-    Committee in order to represent NANOGrav interests. One of the
-    positions shall be designated to be also a member of the
-    Management Team. The term of the IPTA Steering Committee
-    representatives is two years,<sup>3</sup> with one IPTA Steering
-    Committee representative elected at the same time as the positions
-    of the first class of the Management Team and the second
-    representative elected at the same time as the positions of the
-    second class of the Management Team.
-    </p>
-    <p>
-    If an IPTA Steering Committee representative resigns or is no
-    longer a member of NANOGrav, an election to replace that
-    representative shall be conducted as soon as reasonably possible,
-    unless that position on the IPTA Steering Committee would have
-    been vacated in less than six months.
-    </p>
-    <p>
-    The Management Team is responsible for conducting elections to all
-    of these positions. Elections shall be scheduled such that there
-    is at least one month between the date of the election and the
-    date on which the term of the elected positions begins. One month
-    prior to the date of an election, the Management Team shall
-    identify the positions to be elected and notify the entire
-    Collaboration by email that nominations for these positions can be
-    submitted. A person may be nominated for multiple positions, but
-    all nominations shall identify the position or positions for which
-    a person is being nominated. The Management Team shall verify that
-    all persons nominated for a position are eligible to serve in that
-    position, if elected. Once the time for voting has expired, the
-    Management Team shall notify the entire Collaboration by email of
-    the persons elected to the positions as soon as reasonably
-    possible, but no later than at least one week prior to the start
-    of the new term of the positions.
-    </p>
-    <h3>4. Working Groups and committees</h3>
-    <p>
-    The Collaboration organizes its activities into a series of
-    Working Groups (WGs). A new WG may be established by the agreement
-    of three Full Members. Each WG shall appoint a chair, who will
-    serve for a term of one year. A person may serve consecutive terms
-    as a WG chair. Any Member of the Collaboration may join a WG by
-    contacting the WG chair and requesting to join.
-    </p>
-    <p>
-    Ad-hoc, time-limited committees may be established, as needed, by
-    the Management Team to research a specific issue, develop draft
-    documents for discussion and approval by the Membership, or for
-    other purposes as needed.
-    </p>
-    <h3>5. Meetings</h3>
-    <p>
-    NANOGrav shall conduct monthly meetings in order to assess
-    progress toward its goals and review any scientific, technical, or
-    programmatic issues that may have an impact on its goals. At least
-    one meeting per year shall be in person, and other meetings may be
-    in person or may use suitable technologies (e.g. teleconferencing,
-    video conferencing, or web conferencing).
-    </p>
-    <p>
-    Each WG shall hold regular meetings, with a frequency of at least
-    two meetings per year. Meetings may be in person or may use
-    suitable technologies (e.g. teleconferencing, video conferencing,
-    or web conferencing). All Members are welcome to participate in
-    any WG meeting, even if not a formal member of that WG.
-    </p>
-    <h3>6. Voting</h3>
-    <p>
-    All votes shall be conducted by secret ballot. Votes shall be by
-    email ballot or other suitable technical means (e.g. web poll). A
-    minimum of one week shall be allowed for Members to transmit their
-    votes. The quorum for a vote is two-thirds of the Members eligible
-    to vote on the given question. A supermajority is defined as
-    two-thirds of the votes cast.
-    </p>
-    <p>
-    For votes for Officer positions during elections, instant runoff
-    voting shall be used. The election ballot shall list each position
-    that is contested, with a slate of candidates for each
-    position. The names of candidates shall be ordered alphabetically
-    by their surnames. Each voter ranks the candidates for each
-    position. In the first round, the top-ranked candidate on each
-    ballot receives the vote. If a candidate receives a majority of
-    the vote, he or she is elected to that position. If no candidate
-    receives a majority, the candidate with the smallest number of
-    votes is eliminated. The ballots of the eliminated candidate are
-    assigned to one of the remaining candidates based on the next
-    preference on each ballot. The process repeats until one candidate
-    achieves a majority of votes cast.
-    </p>
-    <p>
-    To the extent possible, the Collaboration shall endeavor to act in
-    a manner to develop consensus. If a consensus on an issue cannot
-    be developed in a reasonable amount of time, the Chair may call
-    for a vote on the issue. In any such vote, the motion is carried
-    if a majority of the voting Full Members is in agreement.
-    </p>
-    <p>
-    For the following specific items, votes must be conducted with all
-    Full Members being eligible to vote:
-    <ul>   
-      <li>Election of the Chair of NANOGrav</li>
-      <li>Election of members of the NANOGrav Management Team</li>
-      <li>Election of NANOGrav representatives to the IPTA Steering
-      Committee</li>
-    </ul>
-    </p>
-    <p>
-    For the following specific actions, votes must be conducted, with
-    all Senior Personnel being eligible to vote and the motion being
-    carried if a supermajority of the voting Senior Personnel is in
-    agreement:
-    <ul>
-      <li>Adoption of any subsequent policies</li>
-      <li>Modification of these by-laws or of any policies</li>
-    </ul>
-    </p>
-    <p>
-    <ul>
-      <li>Ratification of these by-laws</li>
-      <li>Promotion of Associate Member to Full Membership</li>
-      <li>Involuntary conversion of a Full Member to Legacy membership</li>
-      <li>Expulsion of a member</li>
-      <li>Dissolution of NANOGrav</li>
-    </ul>
-    </p>
-    <h3>7. Proposals</h3>
-    <p>
-    The Collaboration shall be notified by email about any proposal
-    for the purpose of obtaining funding for the detection or study of
-    gravitational waves in which membership or participation in
-    NANOGrav is referenced at least one month in advance of the
-    proposal’s submission deadline. The notification shall contain at
-    least the description of the funding opportunity and the working
-    title of the proposal.
-    </p>
-    <p>
-    To the extent possible, the Collaboration shall be notified about
-    any proposal to obtain observing time on North American telescopes
-    for observations directly relevant to NANOGrav goals at least two
-    weeks in advance of the proposal deadline, but no later than
-    submission of the proposal itself. Any such proposal shall be
-    circulated to the Collaboration as soon as possible prior to the
-    deadline.
-    </p>
-    <p>
-    The individual who is anticipated to serve as Principal
-    Investigator (PI) for the proposal shall provide the notification
-    to NANOGrav. In the event that the proposal opportunity allows for
-    multiple individuals to serve as Principal Investigators (co-PIs),
-    one of the anticipated co-PIs shall provide the notification.
-    </p>
-    <h3>8. Policies and Procedures</h3>
-    <p>
-    The Collaboration may adopt policies for specific needs and
-    describe procedures to implement them, as warranted, but no policy
-    may be proposed that would contravene these by-laws. A policy may
-    be proposed by the Management Team or by the agreement of three
-    Full Members. At least two meetings of the NANOGrav Collaboration
-    shall occur between the proposal of a policy and a vote to ratify
-    it. Once adopted, policies may be amended in the same manner as
-    these by-laws.
-    </p>
-    <p>
-    If any Member has reason to believe that procedures described in
-    these by-laws or policies are not being followed correctly, that
-    person is obligated to express his or her concerns to at least one
-    member of the Management Team. The Management Team shall report to
-    the Collaboration at the next meeting the nature of the concern,
-    respecting confidentiality when necessary, and shall report to the
-    Collaboration within a reasonable time the manner of its
-    resolution.
-    </p>
-    <h3>9. Communications</h3>
-    <p>
-    NANOGrav shall maintain an email distribution list for the purpose
-    of distributing notifications and other topics of interest to the
-    entire Membership. Email distribution lists for subsets of
-    NANOGrav members (e.g. Working Groups) may be established as
-    needed. Other fora for the interchange and archiving of
-    communications, documents, and data shall be established as
-    necessary.
-    </p>
-    <p>
-    Any press release related to NANOGrav activities by a member’s
-    institution shall be coordinated through the Public/Science
-    Community Relations and Outreach WG.
-    </p>
-    <h3>10. Ratification and Amendments</h3>
-    <p>
-    An amendment to the by-laws may be suggested at any time by a Full
-    Member. At least two meetings of the NANOGrav Collaboration shall
-    occur between the proposal of an amendment and a vote to ratify
-    it.
-    </p>
-    <p>
-    These by-laws shall come into force upon ratification by a
-    supermajority vote of the Senior Personnel of NANOGrav.
-    </p>
-    <div id="byfoot">
-      <ul class="unstyled">
-        <li>
-	  <sup>[1]</sup><i>At the time of writing of this document,
-          the next term of the NANOGrav Chair begins on 2013 January
-          1.</i>
-	</li>
-        <li>
-	  <sup>[2]</sup><i>At the time of writing of this document,
-          the current term of the Management Team members ends on 2012
-          December 31.</i>
-	</li>
-        <li>
-	  <sup>[3]</sup><i>At the time of writing of this document,
-          the current term of one of the IPTA Steering Committee
-          representatives ends on 2012 December 31 and the term of the
-          other ends on 2013 December 31.</i>
-	</li>
-      </ul>
+    </div>
+    <div class="col-sm-10">
+    <section id="bylaws">
+        <h1>By Laws</h1>
+        <h3>1. Purpose</h3>
+        <hr>
+        <p>The North American Nanohertz Observatory for Gravitational Waves (NANOGrav) is a collaboration of researchers who are actively engaged in using North American radio telescopes to detect and study gravitational waves via pulsar timing.</p>
+        <p>In order to further this purpose, the members of NANOGrav work to obtain observing time on relevant telescopes, advance instrumentation and algorithms, obtain funding, publish relevant research results, and engage their professional colleagues, potential sponsors, and the public regarding the detection and study of gravitational waves via pulsar timing. NANOGrav is one of the founding members of the International Pulsar Timing Array (IPTA) and collaborates with its international partners in advancing the goal of the detection and study of gravitational waves. The foregoing activities illustrate the range, but shall not be taken to preclude other activities that would advance the purposes of NANOGrav.</p>
+        <p>NANOGrav encourages diversity among its members and leadership. Diversity refers to the variety of personal experiences, values, and worldviews that arise from differences of culture and circumstance. Such differences include, but are not limited to, race, ethnicity, gender, age, religion, language, abilities/disabilities, sexual orientation, gender identity, socioeconomic status, and geographic region.</p>
+        <h3>2. Membership</h3>
+        <hr>
+        <p>Membership of NANOGrav is open to any researcher or institution that can make a meaningful contribution to furthering the goals of NANOGrav. The NANOGrav Membership Policy describes levels of Membership and the process by which researchers and institutions can join and sustain their Membership in NANOGrav.</p>
+        <h3>3. Officers</h3>
+        <hr>
+        <p>Officers of NANOGrav shall consist of a Chair, a Management Team, and representatives to the IPTA Steering Committee.</p>
+        <p>The Collaboration shall elect a Chair to represent its interests to the larger community and to act in an executive capacity for the Collaboration.</p>
+        <p>All Senior Personnel are eligible to stand for election to the position of Chair. The Chair serves for a term of two years.<sup>1</sup> A person may serve no more than two consecutive terms in the position of Chair, but may be re-elected as Chair at a later time. The Chair may designate a member of the Management Team to act in his/her absence for a limited duration.</p>
+        <p>If the Chair resigns or is no longer a member, the Management Team shall select one of its members to serve in the position of Chair until the election can be held. The election to select a person to serve the remaining term of the Chair shall be conducted as soon as reasonably possible. After completing the remaining term, the individual thus elected shall be eligible to stand for only a single consecutive subsequent term as Chair.</p>
+        <p>The Management Team for the Collaboration shall be composed of the Chair of NANOGrav, four elected Senior Personnel, and the Principal Investigators (PIs) of any large grants that are directly related to NANOGrav's mission and that involve a significant number of NANOGrav members or institutions (see examples below). The collaboration, by vote (election process described below), shall determine if a proposed project is significant enough to warrant membership. The PI’s presence on the MT, through this process, is contingent on the proposal being awarded. The Chair of NANOGrav is also the Chair of the Management Team. The Management Team has the power to plan future activities, conduct an annual review of NANOGrav Membership, arbitrate disputes, and conduct other functions that are necessary in order to ensure that the Collaboration is able to further its purpose. If the Chair is required to act in an executive capacity, the Chair shall take reasonable steps to ensure that the advice of the other Management Team members is obtained. The Chair shall report all actions undertaken and any decisions taken, either individually or by the Management Team, on a regular basis to the Collaboration.</p>
+
+        <p>Elected Management Team terms are two-year positions. PIs of large grants will remain MT members through the duration of the relevant grant. Members are encouraged to consider diversity in their nominations to the MT (and to leadership positions in general) in terms of gender, age, ethnicity, geography, and type of institution of which the nominee is a part.</p>
+
+        <p>The previous Chair shall serve on the Management Team in a non-voting capacity for at least one year following the expiration of that person’s term as Chair. If an elected member of the Management Team resigns, or is no longer a member of NANOGrav, or is elected to the MT as a PI of a large grant, an election to replace that member shall be conducted as soon as reasonably possible, unless that position on the Management Team would have been vacated in less than six months.</p>
+
+        <p>The process for determining the significance of a new project:
+          <ul>
+            <li>During at least one general meeting, face-to-face or virtual, before the submission of a large proposal, the PI must present an overview of the proposed project to the collaboration and request membership on the MT for the duration of the award.</li>
+            <li> NANOGrav Full members will vote no more than one week after the PI presentation. A two-thirds majority vote will be required to instate the PI on the MT. The PI's tenure on the management team will begin on the official start date, and end on the official end date, of the proposal.</li>
+          </ul>
+        </p>
+        <p>Descriptions and examples of large grants that would warrant PI membership in the MT:
+          <ul>
+            <li>A grant that provides funding for any NANOGrav activity to a majority of full members. This can include expenses for telescope time, data analysis, data curation, working group participation, publications, and travel to meetings. Funding for students and research associates who are not themselves full members but are mentored by a full member would be included.</li>
+            <li>A grant that covers telescope time for core NANOGrav observations even if the funding is channeled through a minority of institutions or to a minority of members. Examples: The PIRE grant from 2011-2015. Pending proposals that may lead to significant funding: CREST, Physics Frontier Center, Mid-Scale Innovations Program</li>
+           </ul>
+        </p> 
+
+        <p>Two Senior Personnel of NANOGrav shall serve on the IPTA Steering Committee in order to represent NANOGrav interests. One of the positions shall be designated to be also a member of the Management Team. The term of the IPTA Steering Committee representatives is two years,<sup>3</sup> with one IPTA Steering Committee representative elected at the same time as the positions of the first class of the Management Team and the second representative elected at the same time as the positions of the second class of the Management Team.</p>
+        <p>If an IPTA Steering Committee representative resigns or is no longer a member of NANOGrav, an election to replace that representative shall be conducted as soon as reasonably possible, unless that position on the IPTA Steering Committee would have been vacated in less than six months.</p>
+        <p>The Management Team is responsible for conducting elections to all of these positions. Elections shall be scheduled such that there is at least one month between the date of the election and the date on which the term of the elected positions begins. One month prior to the date of an election, the Management Team shall identify the positions to be elected and notify the entire Collaboration by email that nominations for these positions can be submitted. A person may be nominated for multiple positions, but all nominations shall identify the position or positions for which a person is being nominated. The Management Team shall verify that all persons nominated for a position are eligible to serve in that position, if elected. Once the time for voting has expired, the Management Team shall notify the entire Collaboration by email of the persons elected to the positions as soon as reasonably possible, but no later than at least one week prior to the start of the new term of the positions.</p>
+        <h3>4. Working Groups and committees</h3>
+        <hr>
+        <p>The Collaboration organizes its activities into a series of Working Groups (WGs). A new WG may be established by the agreement of three Full Members. Each WG shall appoint a chair, who will serve for a term of one year. A person may serve consecutive terms as a WG chair. Any Member of the Collaboration may join a WG by contacting the WG chair and requesting to join.</p>
+        <p>Ad-hoc, time-limited committees may be established, as needed, by the Management Team to research a specific issue, develop draft documents for discussion and approval by the Membership, or for other purposes as needed.</p>
+        <h3>5. Meetings</h3>
+        <hr>
+        <p>NANOGrav shall conduct monthly meetings in order to assess progress toward its goals and review any scientific, technical, or programmatic issues that may have an impact on its goals. At least one meeting per year shall be in person, and other meetings may be in person or may use suitable technologies (e.g. teleconferencing, video conferencing, or web conferencing).</p>
+        <p>Each WG shall hold regular meetings, with a frequency of at least two meetings per year. Meetings may be in person or may use suitable technologies (e.g. teleconferencing, video conferencing, or web conferencing). All Members are welcome to participate in any WG meeting, even if not a formal member of that WG.</p>
+        <h3>6. Voting</h3>
+        <hr>
+        <p>All votes shall be conducted by secret ballot. Votes shall be by email ballot or other suitable technical means (e.g. web poll). A minimum of one week shall be allowed for Members to transmit their votes. The quorum for a vote is two-thirds of the Members eligible to vote on the given question. A supermajority is defined as two-thirds of the votes cast.</p>
+        <p>For votes for Officer positions during elections, instant runoff voting shall be used. The election ballot shall list each position that is contested, with a slate of candidates for each position. The names of candidates shall be ordered alphabetically by their surnames. Each voter ranks the candidates for each position. In the first round, the top-ranked candidate on each ballot receives the vote. If a candidate receives a majority of the vote, he or she is elected to that position. If no candidate receives a majority, the candidate with the smallest number of votes is eliminated. The ballots of the eliminated candidate are assigned to one of the remaining candidates based on the next preference on each ballot. The process repeats until one candidate achieves a majority of votes cast.</p>
+        <p>To the extent possible, the Collaboration shall endeavor to act in a manner to develop consensus. If a consensus on an issue cannot be developed in a reasonable amount of time, the Chair may call for a vote on the issue. In any such vote, the motion is carried if a majority of the voting Full Members is in agreement.</p>
+        <p>For the following specific items, votes must be conducted with all Full Members being eligible to vote:
+            <ul>   
+                <li>Election of the Chair of NANOGrav</li>
+                <li>Election of members of the NANOGrav Management Team</li>
+                <li>Election of NANOGrav representatives to the IPTA Steering Committee</li>
+            </ul>
+        </p>
+        <p>For the following specific actions, votes must be conducted, with all Senior Personnel being eligible to vote and the motion being carried if a supermajority of the voting Senior Personnel is in agreement:
+            <ul>
+                <li>Adoption of any subsequent policies</li>
+                <li>Modification of these by-laws or of any policies</li>
+            </ul>
+        </p>
+        <p>
+            <ul>
+                <li>Ratification of these by-laws</li>
+                <li>Promotion of Associate Member to Full Membership</li>
+                <li>Involuntary conversion of a Full Member to Legacy membership</li>
+                <li>Expulsion of a member</li>
+                <li>Dissolution of NANOGrav</li>
+            </ul>
+        </p>
+        <h3>7. Proposals</h3>
+        <hr>
+        <p>The Collaboration shall be notified by email about any proposal for the purpose of obtaining funding for the detection or study of gravitational waves in which membership or participation in NANOGrav is referenced at least one month in advance of the proposal’s submission deadline. The notification shall contain at least the description of the funding opportunity and the working title of the proposal.</p>
+        <p>To the extent possible, the Collaboration shall be notified about any proposal to obtain observing time on North American telescopes for observations directly relevant to NANOGrav goals at least two weeks in advance of the proposal deadline, but no later than submission of the proposal itself. Any such proposal shall be circulated to the Collaboration as soon as possible prior to the deadline.</p>
+        <p>The individual who is anticipated to serve as Principal Investigator (PI) for the proposal shall provide the notification to NANOGrav. In the event that the proposal opportunity allows for multiple individuals to serve as Principal Investigators (co-PIs), one of the anticipated co-PIs shall provide the notification.</p>
+        <h3>8. Policies and Procedures</h3>
+        <hr>
+        <p>The Collaboration may adopt policies for specific needs and describe procedures to implement them, as warranted, but no policy may be proposed that would contravene these by-laws. A policy may be proposed by the Management Team or by the agreement of three Full Members. At least two meetings of the NANOGrav Collaboration shall occur between the proposal of a policy and a vote to ratify it. Once adopted, policies may be amended in the same manner as these by-laws.</p>
+        <p>If any Member has reason to believe that procedures described in these by-laws or policies are not being followed correctly, that person is obligated to express his or her concerns to at least one member of the Management Team. The Management Team shall report to the Collaboration at the next meeting the nature of the concern, respecting confidentiality when necessary, and shall report to the Collaboration within a reasonable time the manner of its resolution.</p>
+        <h3>9. Communications</h3>
+        <hr>
+        <p>NANOGrav shall maintain an email distribution list for the purpose of distributing notifications and other topics of interest to the entire Membership. Email distribution lists for subsets of NANOGrav members (e.g. Working Groups) may be established as needed. Other fora for the interchange and archiving of communications, documents, and data shall be established as necessary.</p>
+        <p>Any press release related to NANOGrav activities by a member’s institution shall be coordinated through the Public/Science Community Relations and Outreach WG.</p>
+        <h3>10. Ratification and Amendments</h3>
+        <hr>
+        <p>An amendment to the by-laws may be suggested at any time by a Full Member. At least two meetings of the NANOGrav Collaboration shall occur between the proposal of an amendment and a vote to ratify it.</p>
+        <p>These by-laws shall come into force upon ratification by a supermajority vote of the Senior Personnel of NANOGrav.</p>
+    <h3>11. Advisory Board</h3>
+    <hr>
+    <p>NANOGrav has a six-member External Advisory Board (EAB). The EAB meets with NANOGrav Senior Personnel twice yearly and advises the collaboration on its management, science progress, and strategic planning. The EAB submits a report to NANOGrav after each meeting, which may be shared by NANOGrav with external stakeholders at the collaboration's discretion. NANOGrav replies to this report no later than one month prior to the subsequent meeting. The EAB is also on hand to assist the collaboration throughout the year if the need arises. The members of the EAB are chosen by the Senior Personnel and will serve for two years unless removed by the MT. An EAB member may elect to step down at any time, but is encouraged to give the MT a minimum of one month’s notice. When a vacancy arises, any Senior Personnel member of NANOGrav may nominate a prospective replacement. If deemed suitable by the MT after taking into consideration such aspects as professional standing, synergy with current EAB members, and logistical considerations, the chair will announce the prospective EAB member at a following NANOGrav general meeting (either virtual or face-to-face). Within one week of the announcement, any Senior Personnel member may request a vote, which must occur no later then one month after the announcement of the prospective EAB member. The prospective EAB member will be instated to the EAB if 1) no vote was requested within the allotted time frame, or 2) there was a majority vote of the senior personnel members in favor of the prospective EAB member.</p>
+        <div id="byfoot">
+            <ul class="unstyled">
+                <li><sup>[1]</sup><i>At the time of writing of this document, the next term of the NANOGrav Chair begins on 2015 January 1.</i></li>
+                <li><sup>[2]</sup><i>At the time of writing of this document, the current term of the Management Team members ends on 2013 December 31.</i></li>
+                <li><sup>[3]</sup><i>At the time of writing of this document, the current term of one of the IPTA Steering Committee representatives ends on 2013 December 31 and the term of the other ends on 2014 December 31.</i></li>
+            </ul>
     </div>
   </div>
-  <div class="row">
   </div>
   </div>
-  </div> <!-- end content row -->
+  <!-- end content row -->
+  <!-- end body content -->
+
   <!-- start footer -->
   <hr>
-  <div style="background: rgba(255,255,255,.4); padding: 10px;" class="row-fluid">
-  <div class="span3 text-center">
+  <div style="background: rgba(255,255,255,.4); padding: 10px;" class="row">
+  <div class="col-lg-1 text-center">
     <img src="../assets/img/nsf1.gif">
   </div>
-  <div class="span6">
+  <div class="col-lg-2 text-center">
+    <img src="../assets/img/NSERC_C.jpg">
+  </div>
+  <div class="col-lg-6">
     <p class="center small">
       <small>
         This material is based in part on work supported by the
@@ -523,15 +293,14 @@
       </small>
     </p>
   </div>
-  <div class="span3 text-center">
+  <div class="col-lg-3 text-center">
     <img src="../assets/img/pire_f2.jpg">
   </div>
   </div>
+  
   </div> <!-- end container -->
   <!-- end footer -->
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
-  <script src="../assets/js/bootstrap.min.js"></script>
-  <script src="http:////cdnjs.cloudflare.com/ajax/libs/jquery-backstretch/2.0.4/jquery.backstretch.min.js"></script>
-  <script>$.backstretch("../assets/img/");</script> 
+  <script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
 </body>
 </html>
