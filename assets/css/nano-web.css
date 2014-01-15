@@ -5990,22 +5990,40 @@ fieldset[disabled] .btn-where.active {
 .nav-nanograv > li:nth-child(1) .active > a,
 .nav-nanograv > li:nth-child(1) .active > a:hover,
 .nav-nanograv > li:nth-child(1) .active > a:focus {
-  background-color: #23337e;
+  background-color: #1e2b6a;
+}
+.nav-nanograv > li:nth-child(1) a:hover {
+  background-color: #1e2b6a;
 }
 .nav-nanograv > li:nth-child(2) {
   background-color: #2661aa;
 }
+.nav-nanograv > li:nth-child(2) a:hover {
+  background-color: #1d4980;
+}
 .nav-nanograv > li:nth-child(3) {
   background-color: #23a8e0;
+}
+.nav-nanograv > li:nth-child(3) a:hover {
+  background-color: #1a88b6;
 }
 .nav-nanograv > li:nth-child(4) {
   background-color: #006400;
 }
+.nav-nanograv > li:nth-child(4) a:hover {
+  background-color: #003100;
+}
 .nav-nanograv > li:nth-child(5) {
   background-color: #008000;
 }
+.nav-nanograv > li:nth-child(5) a:hover {
+  background-color: #004d00;
+}
 .nav-nanograv > li:nth-child(6) {
   background-color: #9acd32;
+}
+.nav-nanograv > li:nth-child(6) a:hover {
+  background-color: #7ba428;
 }
 .nav-nanograv > li > a {
   border-radius: 0px;
