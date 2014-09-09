@@ -7,6 +7,7 @@
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    width="600"
@@ -14,9 +15,25 @@
    id="svg2"
    version="1.1"
    inkscape:version="0.48.4 r9939"
-   sodipodi:docname="fernando_cardoso.svg">
+   sodipodi:docname="tim_pennucci.svg"
+   inkscape:export-filename="/home/ned/webdev/nano-web/assets/img/profiles/banners/tim_pennucci.png"
+   inkscape:export-xdpi="300"
+   inkscape:export-ydpi="300">
   <defs
-     id="defs4" />
+     id="defs4">
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath3271">
+      <rect
+         style="fill:#f5e87b;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="rect3273"
+         width="150"
+         height="150"
+         x="-555.0802"
+         y="469.64249"
+         transform="matrix(0.70710678,-0.70710678,0.70710678,0.70710678,0,0)" />
+    </clipPath>
+  </defs>
   <sodipodi:namedview
      id="base"
      pagecolor="#ffffff"
@@ -24,9 +41,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.7011313"
-     inkscape:cx="385.90747"
-     inkscape:cy="136.30372"
+     inkscape:zoom="0.5"
+     inkscape:cx="300"
+     inkscape:cy="100"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -53,12 +70,12 @@
      id="layer1"
      transform="translate(0,-852.36218)">
     <rect
-       style="fill:#f5e87b;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       style="fill:#1e2b6a;fill-opacity:1;fill-rule:nonzero;stroke:none"
        id="rect2991"
        width="600"
        height="200"
-       x="-0.62305295"
-       y="851.73914" />
+       x="0"
+       y="852.36218" />
     <text
        xml:space="preserve"
        style="font-size:64px;font-style:normal;font-variant:normal;font-weight:900;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Ostrich Sans;-inkscape-font-specification:Ostrich Sans Heavy"
@@ -93,11 +110,11 @@
          id="flowPara3767">TIM PENNUCCI</flowPara></flowRoot>    <path
        inkscape:connector-curvature="0"
        d="m 377.6929,979.81455 10.92776,4.72462 c 0.91473,-0.60977 3.01323,-1.87446 3.42776,-2.06596 3.47486,-1.60535 3.25507,1.29788 1.79286,2.16783 -0.39992,0.23794 -2.44257,1.51349 -3.83022,2.32377 l -1.57763,11.80055 -1.95757,1.15913 -1.01597,-10.65518 -6.30225,3.23235 -0.33865,3.45535 -1.28028,0.75991 -0.97741,-3.73618 -0.011,0.006 -2.71473,-2.77807 1.31056,-0.70484 3.13874,1.48953 6.01591,-3.73895 -8.60675,-6.36007 1.99888,-1.07929 z"
-       style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none"
+       style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none"
        id="path5724" />
     <text
        xml:space="preserve"
-       style="font-size:32px;font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Ostrich Sans;-inkscape-font-specification:Ostrich Sans Light"
+       style="font-size:32px;font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Ostrich Sans;-inkscape-font-specification:Ostrich Sans Light"
        x="321.57175"
        y="1006.0695"
        id="text3910"
@@ -106,10 +123,10 @@
          id="tspan3912"
          x="321.57175"
          y="1006.0695"
-         style="font-size:48px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Ostrich Sans;-inkscape-font-specification:Ostrich Sans Medium">RIC</tspan></text>
+         style="font-size:48px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Ostrich Sans;-inkscape-font-specification:Ostrich Sans Medium;fill:#ffffff">RIC</tspan></text>
     <text
        xml:space="preserve"
-       style="font-size:48px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Ostrich Sans;-inkscape-font-specification:Ostrich Sans Medium"
+       style="font-size:48px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Ostrich Sans;-inkscape-font-specification:Ostrich Sans Medium"
        x="411.49091"
        y="1006.0695"
        id="text3914"
@@ -118,5 +135,165 @@
          id="tspan3916"
          x="411.49091"
          y="1006.0695">YUL</tspan></text>
+    <g
+       id="g3223"
+       transform="matrix(0.70710678,0.70710678,-0.70710678,0.70710678,580.0802,407.7197)"
+       clip-path="url(#clipPath3271)"
+       style="fill:#1e2b6a;fill-opacity:1">
+      <rect
+         y="557.2644"
+         x="-57.020874"
+         height="306.39978"
+         width="5"
+         id="rect3005"
+         style="fill:#1e2b6a;fill-opacity:1;fill-rule:nonzero;stroke:none" />
+      <rect
+         style="fill:#1e2b6a;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="rect3007"
+         width="5"
+         height="306.39978"
+         x="72.979126"
+         y="557.2644" />
+      <rect
+         y="557.2644"
+         x="52.979126"
+         height="306.39978"
+         width="5"
+         id="rect3009"
+         style="fill:#1e2b6a;fill-opacity:1;fill-rule:nonzero;stroke:none" />
+      <rect
+         style="fill:#1e2b6a;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="rect3011"
+         width="5"
+         height="306.39978"
+         x="42.979126"
+         y="557.2644" />
+      <rect
+         y="557.2644"
+         x="32.979126"
+         height="306.39978"
+         width="5"
+         id="rect3013"
+         style="fill:#1e2b6a;fill-opacity:1;fill-rule:nonzero;stroke:none" />
+      <rect
+         style="fill:#1e2b6a;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="rect3015"
+         width="5"
+         height="306.39978"
+         x="22.979126"
+         y="557.2644" />
+      <rect
+         y="557.2644"
+         x="12.979126"
+         height="306.39978"
+         width="5"
+         id="rect3017"
+         style="fill:#1e2b6a;fill-opacity:1;fill-rule:nonzero;stroke:none" />
+      <rect
+         style="fill:#1e2b6a;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="rect3019"
+         width="5"
+         height="306.39978"
+         x="2.979126"
+         y="557.2644" />
+      <rect
+         y="557.2644"
+         x="-7.020874"
+         height="306.39978"
+         width="5"
+         id="rect3021"
+         style="fill:#1e2b6a;fill-opacity:1;fill-rule:nonzero;stroke:none" />
+      <rect
+         style="fill:#1e2b6a;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="rect3023"
+         width="5"
+         height="306.39978"
+         x="-27.020874"
+         y="557.2644" />
+      <rect
+         y="557.2644"
+         x="-37.020874"
+         height="306.39978"
+         width="5"
+         id="rect3025"
+         style="fill:#1e2b6a;fill-opacity:1;fill-rule:nonzero;stroke:none" />
+      <rect
+         style="fill:#1e2b6a;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="rect3027"
+         width="5"
+         height="306.39978"
+         x="-47.020874"
+         y="557.2644" />
+      <rect
+         y="557.2644"
+         x="-17.020874"
+         height="306.39978"
+         width="5"
+         id="rect3029"
+         style="fill:#1e2b6a;fill-opacity:1;fill-rule:nonzero;stroke:none" />
+      <rect
+         y="557.2644"
+         x="62.979126"
+         height="306.39978"
+         width="5"
+         id="rect3031"
+         style="fill:#1e2b6a;fill-opacity:1;fill-rule:nonzero;stroke:none" />
+      <rect
+         style="fill:#1e2b6a;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="rect3033"
+         width="5"
+         height="306.39978"
+         x="112.97913"
+         y="557.2644" />
+      <rect
+         y="557.2644"
+         x="92.979126"
+         height="306.39978"
+         width="5"
+         id="rect3035"
+         style="fill:#1e2b6a;fill-opacity:1;fill-rule:nonzero;stroke:none" />
+      <rect
+         style="fill:#1e2b6a;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="rect3037"
+         width="5"
+         height="306.39978"
+         x="82.979126"
+         y="557.2644" />
+      <rect
+         y="557.2644"
+         x="102.97913"
+         height="306.39978"
+         width="5"
+         id="rect3039"
+         style="fill:#1e2b6a;fill-opacity:1;fill-rule:nonzero;stroke:none" />
+      <rect
+         y="557.2644"
+         x="132.97913"
+         height="306.39978"
+         width="5"
+         id="rect3041"
+         style="fill:#1e2b6a;fill-opacity:1;fill-rule:nonzero;stroke:none" />
+      <rect
+         style="fill:#1e2b6a;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="rect3043"
+         width="5"
+         height="306.39978"
+         x="122.97913"
+         y="557.2644" />
+      <rect
+         style="fill:#1e2b6a;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="rect3221"
+         width="5"
+         height="306.39978"
+         x="142.97913"
+         y="557.2644" />
+    </g>
+    <image
+       y="876.36218"
+       x="24"
+       id="image18175"
+       xlink:href="file:///home/ned/webdev/nano-web/assets/img/headshots/tim_pennucci.jpg"
+       height="152"
+       width="152" />
   </g>
 </svg>

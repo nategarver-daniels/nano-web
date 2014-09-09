@@ -6057,6 +6057,14 @@ fieldset[disabled] .btn-where.active {
   top: auto;
   left: auto;
 }
+
+.media-students h3 {
+
+ font-family: "Ostrich Sans";
+ font-style: "heavy";
+
+}
+
 @media (min-width: 768px) {
   .nav-nanograv-justified > li {
     display: table-cell;

@@ -7,6 +7,7 @@
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    width="600"
@@ -14,9 +15,25 @@
    id="svg2"
    version="1.1"
    inkscape:version="0.48.4 r9939"
-   sodipodi:docname="tim_pennucci.svg">
+   sodipodi:docname="joey_martinez.svg"
+   inkscape:export-filename="/home/ned/webdev/nano-web/assets/img/profiles/banners/joey_martinez.png"
+   inkscape:export-xdpi="300"
+   inkscape:export-ydpi="300">
   <defs
-     id="defs4" />
+     id="defs4">
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath3271">
+      <rect
+         style="fill:#f5e87b;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="rect3273"
+         width="150"
+         height="150"
+         x="-555.0802"
+         y="469.64249"
+         transform="matrix(0.70710678,-0.70710678,0.70710678,0.70710678,0,0)" />
+    </clipPath>
+  </defs>
   <sodipodi:namedview
      id="base"
      pagecolor="#ffffff"
@@ -24,9 +41,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.7011313"
-     inkscape:cx="385.90747"
-     inkscape:cy="136.30372"
+     inkscape:zoom="2.635"
+     inkscape:cx="300"
+     inkscape:cy="100"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -53,12 +70,12 @@
      id="layer1"
      transform="translate(0,-852.36218)">
     <rect
-       style="fill:#f5e87b;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       style="fill:#9acd32;fill-opacity:1;fill-rule:nonzero;stroke:none"
        id="rect2991"
        width="600"
        height="200"
-       x="-0.62305295"
-       y="851.73914" />
+       x="0"
+       y="852.36218" />
     <text
        xml:space="preserve"
        style="font-size:64px;font-style:normal;font-variant:normal;font-weight:900;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Ostrich Sans;-inkscape-font-specification:Ostrich Sans Heavy"
@@ -118,5 +135,165 @@
          id="tspan3916"
          x="411.49091"
          y="1006.0695">CGN</tspan></text>
+    <g
+       id="g3223"
+       transform="matrix(0.70710678,0.70710678,-0.70710678,0.70710678,580.0802,407.7197)"
+       clip-path="url(#clipPath3271)"
+       style="fill:#7ba428;fill-opacity:1">
+      <rect
+         y="557.2644"
+         x="-57.020874"
+         height="306.39978"
+         width="5"
+         id="rect3005"
+         style="fill:#7ba428;fill-opacity:1;fill-rule:nonzero;stroke:none" />
+      <rect
+         style="fill:#7ba428;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="rect3007"
+         width="5"
+         height="306.39978"
+         x="72.979126"
+         y="557.2644" />
+      <rect
+         y="557.2644"
+         x="52.979126"
+         height="306.39978"
+         width="5"
+         id="rect3009"
+         style="fill:#7ba428;fill-opacity:1;fill-rule:nonzero;stroke:none" />
+      <rect
+         style="fill:#7ba428;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="rect3011"
+         width="5"
+         height="306.39978"
+         x="42.979126"
+         y="557.2644" />
+      <rect
+         y="557.2644"
+         x="32.979126"
+         height="306.39978"
+         width="5"
+         id="rect3013"
+         style="fill:#7ba428;fill-opacity:1;fill-rule:nonzero;stroke:none" />
+      <rect
+         style="fill:#7ba428;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="rect3015"
+         width="5"
+         height="306.39978"
+         x="22.979126"
+         y="557.2644" />
+      <rect
+         y="557.2644"
+         x="12.979126"
+         height="306.39978"
+         width="5"
+         id="rect3017"
+         style="fill:#7ba428;fill-opacity:1;fill-rule:nonzero;stroke:none" />
+      <rect
+         style="fill:#7ba428;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="rect3019"
+         width="5"
+         height="306.39978"
+         x="2.979126"
+         y="557.2644" />
+      <rect
+         y="557.2644"
+         x="-7.020874"
+         height="306.39978"
+         width="5"
+         id="rect3021"
+         style="fill:#7ba428;fill-opacity:1;fill-rule:nonzero;stroke:none" />
+      <rect
+         style="fill:#7ba428;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="rect3023"
+         width="5"
+         height="306.39978"
+         x="-27.020874"
+         y="557.2644" />
+      <rect
+         y="557.2644"
+         x="-37.020874"
+         height="306.39978"
+         width="5"
+         id="rect3025"
+         style="fill:#7ba428;fill-opacity:1;fill-rule:nonzero;stroke:none" />
+      <rect
+         style="fill:#7ba428;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="rect3027"
+         width="5"
+         height="306.39978"
+         x="-47.020874"
+         y="557.2644" />
+      <rect
+         y="557.2644"
+         x="-17.020874"
+         height="306.39978"
+         width="5"
+         id="rect3029"
+         style="fill:#7ba428;fill-opacity:1;fill-rule:nonzero;stroke:none" />
+      <rect
+         y="557.2644"
+         x="62.979126"
+         height="306.39978"
+         width="5"
+         id="rect3031"
+         style="fill:#7ba428;fill-opacity:1;fill-rule:nonzero;stroke:none" />
+      <rect
+         style="fill:#7ba428;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="rect3033"
+         width="5"
+         height="306.39978"
+         x="112.97913"
+         y="557.2644" />
+      <rect
+         y="557.2644"
+         x="92.979126"
+         height="306.39978"
+         width="5"
+         id="rect3035"
+         style="fill:#7ba428;fill-opacity:1;fill-rule:nonzero;stroke:none" />
+      <rect
+         style="fill:#7ba428;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="rect3037"
+         width="5"
+         height="306.39978"
+         x="82.979126"
+         y="557.2644" />
+      <rect
+         y="557.2644"
+         x="102.97913"
+         height="306.39978"
+         width="5"
+         id="rect3039"
+         style="fill:#7ba428;fill-opacity:1;fill-rule:nonzero;stroke:none" />
+      <rect
+         y="557.2644"
+         x="132.97913"
+         height="306.39978"
+         width="5"
+         id="rect3041"
+         style="fill:#7ba428;fill-opacity:1;fill-rule:nonzero;stroke:none" />
+      <rect
+         style="fill:#7ba428;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="rect3043"
+         width="5"
+         height="306.39978"
+         x="122.97913"
+         y="557.2644" />
+      <rect
+         style="fill:#7ba428;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="rect3221"
+         width="5"
+         height="306.39978"
+         x="142.97913"
+         y="557.2644" />
+    </g>
+    <image
+       y="877.36218"
+       x="25"
+       id="image17994"
+       xlink:href="file:///home/ned/webdev/nano-web/assets/img/headshots/joey_martinez.jpg"
+       height="150"
+       width="150" />
   </g>
 </svg>
