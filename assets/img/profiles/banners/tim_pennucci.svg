@@ -41,16 +41,16 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.5"
-     inkscape:cx="300"
-     inkscape:cy="100"
+     inkscape:zoom="1.3955774"
+     inkscape:cx="235.73063"
+     inkscape:cy="83"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
-     inkscape:window-width="1889"
+     inkscape:window-width="1301"
      inkscape:window-height="695"
-     inkscape:window-x="279"
-     inkscape:window-y="644"
+     inkscape:window-x="65"
+     inkscape:window-y="45"
      inkscape:window-maximized="0" />
   <metadata
      id="metadata7">
@@ -98,7 +98,7 @@
     <flowRoot
        xml:space="preserve"
        id="flowRoot3761"
-       style="font-size:64px;font-style:normal;font-variant:normal;font-weight:900;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Ostrich Sans;-inkscape-font-specification:Ostrich Sans Heavy"
+       style="font-size:64px;font-style:normal;font-variant:normal;font-weight:900;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Ostrich Sans;-inkscape-font-specification:Ostrich Sans Heavy"
        transform="translate(11.0526,876.0468)"><flowRegion
          id="flowRegion3763"><rect
            id="rect3765"
@@ -106,35 +106,35 @@
            height="95.950157"
            x="161.37071"
            y="6.2305298"
-           style="text-align:center;text-anchor:middle;fill:#ffffff;fill-opacity:1" /></flowRegion><flowPara
+           style="text-align:center;text-anchor:middle;fill:#ffffff;fill-opacity:1;-inkscape-font-specification:Ostrich Sans Heavy;font-family:Ostrich Sans;font-weight:900;font-style:normal;font-stretch:normal;font-variant:normal;font-size:64px;writing-mode:lr;line-height:125%" /></flowRegion><flowPara
          id="flowPara3767">TIM PENNUCCI</flowPara></flowRoot>    <path
        inkscape:connector-curvature="0"
-       d="m 377.6929,979.81455 10.92776,4.72462 c 0.91473,-0.60977 3.01323,-1.87446 3.42776,-2.06596 3.47486,-1.60535 3.25507,1.29788 1.79286,2.16783 -0.39992,0.23794 -2.44257,1.51349 -3.83022,2.32377 l -1.57763,11.80055 -1.95757,1.15913 -1.01597,-10.65518 -6.30225,3.23235 -0.33865,3.45535 -1.28028,0.75991 -0.97741,-3.73618 -0.011,0.006 -2.71473,-2.77807 1.31056,-0.70484 3.13874,1.48953 6.01591,-3.73895 -8.60675,-6.36007 1.99888,-1.07929 z"
+       d="m 379.0466,979.83855 10.92776,4.72462 c 0.91473,-0.60977 3.01323,-1.87446 3.42776,-2.06596 3.47486,-1.60535 3.25507,1.29788 1.79286,2.16783 -0.39992,0.23794 -2.44257,1.51349 -3.83022,2.32377 l -1.57763,11.80055 -1.95757,1.15913 -1.01597,-10.65518 -6.30225,3.23235 -0.33865,3.45535 -1.28028,0.75991 -0.97741,-3.73618 -0.011,0.006 -2.71473,-2.77807 1.31056,-0.70484 3.13874,1.48953 6.01591,-3.73895 -8.60675,-6.36007 1.99888,-1.07929 z"
        style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none"
        id="path5724" />
     <text
        xml:space="preserve"
        style="font-size:32px;font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Ostrich Sans;-inkscape-font-specification:Ostrich Sans Light"
-       x="321.57175"
+       x="312.25659"
        y="1006.0695"
        id="text3910"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          id="tspan3912"
-         x="321.57175"
+         x="312.25659"
          y="1006.0695"
-         style="font-size:48px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Ostrich Sans;-inkscape-font-specification:Ostrich Sans Medium;fill:#ffffff">RIC</tspan></text>
+         style="font-size:48px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;font-family:Ostrich Sans;-inkscape-font-specification:Ostrich Sans Medium">CHO</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:48px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Ostrich Sans;-inkscape-font-specification:Ostrich Sans Medium"
-       x="411.49091"
+       x="411.49094"
        y="1006.0695"
        id="text3914"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          id="tspan3916"
-         x="411.49091"
-         y="1006.0695">YUL</tspan></text>
+         x="411.49094"
+         y="1006.0695">CAG</tspan></text>
     <g
        id="g3223"
        transform="matrix(0.70710678,0.70710678,-0.70710678,0.70710678,580.0802,407.7197)"
