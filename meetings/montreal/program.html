@@ -14,7 +14,7 @@
   <link href="http://fonts.googleapis.com/css?family=Droid+Serif" rel="stylesheet" type="text/css">
   <link href="http://fonts.googleapis.com/css?family=Droid+Sans" rel="stylesheet" type="text/css">
   <link href="http://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
-  <link rel="stylesheet" href="../assets/css/nano-web.css">
+  <link rel="stylesheet" href="../../assets/css/nano-web.css">
 </head>
 
 <body style="padding-top: 50px;">
@@ -50,68 +50,137 @@
   </div> <!-- end navbar -->
   <!-- set up the body layout -->
   <div class="container"> <!-- start body container -->
-    <img class="img-responsive" src="../assets/img/gravity5.png"></img>
+    <img class="img-responsive" src="../../assets/img/gravity5.png"></img>
   <!-- start subnavbar -->
   <div class="navbar navbar-default">
       <ul class="nav navbar-nav">
-       <li><a href="montreal">Monreal Cyber-I</a></li>
-       <li class="active"><a href="#">Winter 2015</a></li>
+       <li class="active"><a href="#">Montreal Cyber-I</a></li>
+       <li><a href="../index.html">Winter 2015</a></li>
        <li><a href="http://www.gravity.phys.uwm.edu/conferences/nanograv2014/index.html">Fall 2014</a></li>
       </ul>
   <!-- end subnavbar -->
   </div>
   <div class="navbar navbar-default">
       <ul class="nav navbar-nav">
-        <li class="active"><a href="#">Info</a></li>
+        <li><a href="index.html">Info</a></li>
         <li><a href="participants.html">Participants</a></li>
-        <li><a href="program.html">Program</a></li>
-        <li><a href="https://docs.google.com/forms/d/1u5FZfYipy_VnHp4FcT-stErvZgQkrJoPOw2QKWWVdok/viewform">Register</a></li>
-        <li><a href="travel.html">Travel / Lodging</a></li>
-        <li><a href="logistics.html">Logistics</a></li>
+        <li class="active"><a href="#">Program</a></li>
       </ul>
   </div> <!-- end row -->
   
   <!-- start body content -->
   
   <div class="row">
-  <div class="col-sm-offset-1 col-sm-4">
-  <h4>General Information</h4>
-    <p>Location: <strong><a href="http://www.naic.edu">Arecibo Observatory</a></strong></p>
-    <p>Please see the <a href="logistics.html">Logistics</a> page for information about meals, clothing, etc.</p>
-    <p>On Feb 2-3, we will host a meeting for undergraduate students. This will
-consist of tours of the telescopes and the facilities, observing training,
-and tutorials on pulsar searching and timing. You may register for this meeting as an undergraduate or as a mentor/presenter. Please contact Ryan Lynch if you have any questons about the undergraduate meeting. </p>
+  <div class="col-sm-offset-1 col-sm-8">
+ <h3>Monday 06/08/2015</h3>
 
-   <p> On Feb 2-3, concurrently with the undergraduate student meeting, we will
-host an Advisory Board meeting. All senior personnel are invited to this
-meeting. Please let Maura McLaughlin know if there is something in particular that you'd
-like to present or discuss at this meeting.</p>
+ <h4>Morning discussion:</h4>
+ <ul>
+   <li> Overview of milestones (document)</li>
+   <li> Overview of near-term objectives (document)</li>
+   <li> Do we have the data we want/need on the data base, and what do we still need:</li>
+     <ul>
+       <li>     - for achieving milestones</li>
+       <li>     - for achieving near-term objectives</li>
+     </ul>
+   <li>- Is Steven set up for working on his project?</li>
+     <ul>
+       <li>     - if not, then what else is required?</li>
+     </ul>
+   <li>- Is Michael set up for working on his project?</li>
+     <ul>  
+       <li>     - if not, then what else is required?</li>
+     </ul>
+  </ul>
+  <h4>Afternoon coding:</h4>
 
-   <p> On Feb 4-6, we will host the general NANOGrav meeting. Zaven Arzoumanian
-is the SOC chair for this meeting. Please contact Zaven Arzoumanian if you have any questions regarding the scientific program, or if you would like to give a talk at the meeting. </p>
+  <ul> 
+     <li>Set up and upload any missing data</li>
+       <ul>
+         <li>data releases</li>
+         <li>set up pre-packaged queries for data releases</li>
+       </ul>
+  </ul>
 
-   <p>The PIRE will support the conference room rentals and the conference
-dinner. Every institution will be responsible for their own accommodation
-and meals costs. These can be paid on-site at the end of the week. If
-finding money to attend the meeting from individual grants is a hardship, please contact us.</p>
+<h3>Tuesday 06/09/2015</h3>
 
- </div>
-  <div class="col-sm-offset-1 col-sm-4">
-   <h4>Local Organizing Committee</h4>
-   <ul class="list-unstyled">
-    <li>Brian Christy</li>
-    <li>Ryan Lynch</li> 
-    <li>Maura McLaughlin</li>
-    <li>Megan Moore</li>  
-    <li>Andrew Seymour</li>
+<h4>Morning discussion:</h4>
+
+<ul>
+<li> Setting up tiered access:  how difficult is this?  Do we need to wait for anything</li>
+    <ul>
+     <li> basic tier categories:  NANOGrav, IPTA, Public</li>
+<li> Adding functionality to database:</li>
+     <li> “repository” functionality, e.g., intermediate versions of data, and intermediate data products</li>
+     <li> Want this database and associated interfaces to be *used* and *useable* by NANOGrav, and eventually others.</li>
+    </ul>
+<li> Python notebook on data.nanograv site (internal to NANOGrav)</li>
+   <ul>
+     <li> is it set up?  </li>
+     <li> who can/cannot access it?</li>
+     <li> what do we need to access it?</li>
    </ul>
-   <h4>Science Organizing Committee</h4>
-   <ul class="list-unstyled">
-    <li>Zaven Arzoumanian</li>
-    <li>Emmanuel Fonseca</li>
-    <li>Michael Lam</li>
-    <li>Chiara Mingarelli</li>
+<li> Relation to outside cyber-i projects and affiliations:</li>
+    <ul>
+     <li> NCSA document from Eliu</li>
+     <li> The Bridge/Portal</li>
+    </ul>
+</ul>
+
+<h4>Afternoon coding</h4>
+
+
+<h3>Wednesday 06/10/2015</h3>
+
+<h4>Morning discussion:</h4>
+
+<ul>
+<li> Steve’s project:  what *exactly* do we want as a base product</li>
+  <ul>
+     <li> Need to have a completed, substantial project by end of summer</li>
+     <li> details of set up for coding</li>
+  </ul>
+<li> More discussing of Michael’s observing tool project if needed:</li>
+  <ul>
+     <li> What goes on the observing interface?  E.g.:</li>
+       <ul> 
+         <li> profiles</li>
+          <li> “on-the-fly” residuals</li>
+          <li> “on-the-fly” DM measurements?</li>
+          <li> combining incoming data with database data?</li>
+       </ul>
    </ul>
+</ul>
+
+<h4>Afternoon coding</h4>
+
+
+<h3>Thursday 06/11/2015</h3>
+
+<h4>Morning discussion:</h4>
+
+<ul>
+<li> Database interface python code</li>
+  <ul>
+     <li> availability?</li>
+     <li> user-friendliness?</li>
+     <li> proper coding practice?</li>
+  </ul>
+<li> Discussion of future data distribution:</li>
+  <ul>
+     <li> multiple-site data storage vs. all in one place</li>
+  </ul>
+<li> Hardware</li>
+</ul>
+<h4>Afternoon coding</h4>
+
+
+<h3>Friday 06/12.2015</h3>
+  <h4>Morning Discussion and Coding</h4>
+  <ul>
+   <li>Wrap up loose ends, assign tasks for upcoming weeks</li>
+  </ul>
+
   </div>
   </div>
   <!-- end content row -->
@@ -121,10 +190,10 @@ finding money to attend the meeting from individual grants is a hardship, please
   <hr>
   <div style="background: rgba(255,255,255,.4); padding: 10px;" class="row">
   <div class="col-lg-1 text-center">
-    <img src="../assets/img/nsf1.gif">
+    <img src="../../assets/img/nsf1.gif">
   </div>
   <div class="col-lg-2 text-center">
-    <img src="../assets/img/NSERC_C.jpg">
+    <img src="../../assets/img/NSERC_C.jpg">
   </div>
   <div class="col-lg-6">
     <p class="center small">
@@ -140,7 +209,7 @@ finding money to attend the meeting from individual grants is a hardship, please
     </p>
   </div>
   <div class="col-lg-3 text-center">
-    <img src="../assets/img/pire_f2.jpg">
+    <img src="../../assets/img/pire_f2.jpg">
   </div>
   </div>
   
@@ -149,6 +218,6 @@ finding money to attend the meeting from individual grants is a hardship, please
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
   <script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
   <script src="http:////cdnjs.cloudflare.com/ajax/libs/jquery-backstretch/2.0.4/jquery.backstretch.min.js"></script>
-  <script>$.backstretch("../../assets/img/");</script> 
+  <script>$.backstretch("../../../assets/img/");</script> 
 </body>
 </html>
