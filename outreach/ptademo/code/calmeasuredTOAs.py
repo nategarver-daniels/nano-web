@@ -133,8 +133,8 @@ def calmeasuredTOAs(ts, template, Tp):
 
     error_tauhat = np.zeros(len(tauhat))
     for ii in range(0, len(tauhat)):
-        ##error_tauhat[ii] = 0.5*deltaT*Ahat_max/Ahat[ii]
-        error_tauhat[ii] = 0.25*deltaT/Ahat[ii]
+        error_tauhat[ii] = 0.5*deltaT*Ahat_max/Ahat[ii]
+        ##error_tauhat[ii] = 0.25*deltaT/Ahat[ii]
         
     # assign output variables (only TOAs and their uncertainties needed)
     measuredTOAs = tauhat

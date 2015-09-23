@@ -15,7 +15,7 @@ def recordpulses(filename):
     FORMAT = pyaudio.paInt16
     CHANNELS = 1
     RATE = 22050
-    RECORD_SECONDS = 6    
+    RECORD_SECONDS = 8    
     deltaT = 1.0/RATE
    
     # get ready to start recording

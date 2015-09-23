@@ -5,9 +5,9 @@ from sinusoid import *
 def errsinusoid(p, t, y, err):
 
     '''
-    calculate function to minimize when fitting to a sinusoid
+    calculate function to minimize when fitting to a sinusoid plus constant
     
-    p - parameters for model sinusoid (A, f, phi)
+    p - parameters for model sinusoid (A, f, phi, b)
     t - discrete times
     y - array of measeured data
     err - array of error bars on measured data

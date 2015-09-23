@@ -24,7 +24,6 @@ from caltemplate import *
 from calmeasuredTOAs import *
 from calexpectedTOAs import *
 from calresiduals import *
-from removeoffset import *
 from errsinusoid import *
 from calcorrcoeff import *
 
@@ -50,8 +49,6 @@ profile1 = np.array([])
 profile2 = np.array([])
 residuals1 = np.array([])
 residuals2 = np.array([])
-dtresiduals1 = np.array([])
-dtresiduals2 = np.array([])
 errorbars1 = np.array([])
 errorbars2 = np.array([])
 yfit1 = np.array([])
@@ -73,12 +70,16 @@ var_frequency1_est = Tk.DoubleVar()
 var_frequency2_est = Tk.DoubleVar()
 var_phase1_est = Tk.DoubleVar()
 var_phase2_est = Tk.DoubleVar()
+var_offset1_est = Tk.DoubleVar()
+var_offset2_est = Tk.DoubleVar()
 var_amplitude1_fit = Tk.DoubleVar()
 var_amplitude2_fit = Tk.DoubleVar()
 var_frequency1_fit = Tk.DoubleVar()
 var_frequency2_fit = Tk.DoubleVar()
 var_phase1_fit = Tk.DoubleVar()
 var_phase2_fit = Tk.DoubleVar()
+var_offset1_fit = Tk.DoubleVar()
+var_offset2_fit = Tk.DoubleVar()
 var_corrcoeff = Tk.DoubleVar()
 var_message = Tk.StringVar()
 
@@ -89,11 +90,13 @@ var_profile2filename.set("m120b_profile")
 var_T1.set(T1)
 var_T2.set(T2)
 var_amplitude1_est.set(1e-4)
-var_frequency1_est.set(0.5)
+var_frequency1_est.set(0.4)
 var_phase1_est.set(0)
+var_offset1_est.set(0)
 var_amplitude2_est.set(1e-4)
-var_frequency2_est.set(0.5)
+var_frequency2_est.set(0.4)
 var_phase2_est.set(0)
+var_offset2_est.set(0)
 var_corrcoeff.set(0)
 
 ## ----------
@@ -263,6 +266,21 @@ entry_phase2_est.grid(row=8,column=3)
 entry_phase2_fit = Tk.Entry(frame_entry,textvariable=var_phase2_fit)
 entry_phase2_fit.grid(row=8,column=4)
 
+label_phase_est = Tk.Label(frame_entry,text="Offset [sec]:")
+label_phase_est.grid(row=9,column=0)
+
+entry_phase1_est = Tk.Entry(frame_entry,textvariable=var_offset1_est)
+entry_phase1_est.grid(row=9,column=1)
+
+entry_phase1_fit = Tk.Entry(frame_entry,textvariable=var_offset1_fit)
+entry_phase1_fit.grid(row=9,column=2)
+
+entry_phase2_est = Tk.Entry(frame_entry,textvariable=var_offset2_est)
+entry_phase2_est.grid(row=9,column=3)
+
+entry_phase2_fit = Tk.Entry(frame_entry,textvariable=var_offset2_fit)
+entry_phase2_fit.grid(row=9,column=4)
+
 
 ## ----------
 ## Residual Plots
@@ -390,80 +408,70 @@ def func_calresiduals():
     var_message.set("finished calculation of residuals")
     root.update()
 
-def func_removeoffset():
-
-    global residuals1, residuals2, errorbars1, errorbars2, dtresiduals1, dtresiduals2
-
-    # remove constant offset in residuals for metronome 1
-    [dtresiduals1, b1] = removeoffset(residuals1, errorbars1)
-        
-    # plot detrended residuals
-    ax_residual1.cla()
-    ax_residual1.errorbar(dtresiduals1[:,0], dtresiduals1[:,1], errorbars1[:,1], fmt='.')
-    redraw_axes()
-
-    # remove constant offset in residuals for metronome 2
-    [dtresiduals2, b2] = removeoffset(residuals2, errorbars2)
-        
-    # plot detrended residuals
-    ax_residual2.cla()
-    ax_residual2.errorbar(dtresiduals2[:,0], dtresiduals2[:,1], errorbars2[:,1], fmt='.')
-    redraw_axes()
-
-    return dtresiduals1, dtresiduals2
-
 def func_fitsinusoid():
 
-    global dtresiduals1, dtresiduals2, errorbars1, errorbars2, yfit1, yfit2
+    global residuals1, residuals2, errorbars1, errorbars2, yfit1, yfit2
 
     # load initial estimate of parameters
-    pars1 = np.zeros(3)
+    pars1 = np.zeros(4)
     pars1[0] = var_amplitude1_est.get()
     pars1[1] = var_frequency1_est.get()
     pars1[2] = var_phase1_est.get()
+    pars1[3] = var_offset1_est.get()
 
-    # fit sinusoid to detrended residuals
+    # fit sinusoid with constant offset to residuals
     pfit1, pcov1, infodict, message, ier = \
-    opt.leastsq(errsinusoid, pars1, args=(dtresiduals1[:,0], dtresiduals1[:,1], errorbars1[:,1]), full_output=1)
+    opt.leastsq(errsinusoid, pars1, args=(residuals1[:,0], residuals1[:,1], errorbars1[:,1]), full_output=1)
 
     # fill best-fit values of parameters
     var_amplitude1_fit.set(pfit1[0])
     var_frequency1_fit.set(pfit1[1])
     var_phase1_fit.set(pfit1[2])
+    var_offset1_fit.set(pfit1[3])
 
     # best-fit sinusoid
-    tfit = np.linspace(0, max(dtresiduals1[-1,0], dtresiduals2[-1,0]), 1024)
+    tfit = np.linspace(0, max(residuals1[-1,0], residuals2[-1,0]), 1024)
     yfit1 = pfit1[0]*np.sin(2*np.pi*pfit1[1]*tfit + pfit1[2])
 
-    # plot detrended residuals with best-fit sinusoid
+    # constant offset
+    N = len(residuals1[:,0])
+    offset1 = pfit1[3]*np.ones(N)
+
+    # plot residuals with constant removed and with best-fit sinusoid
     ax_residual1.cla()
-    ax_residual1.errorbar(dtresiduals1[:,0], dtresiduals1[:,1], errorbars1[:,1], fmt='.')
+    ax_residual1.errorbar(residuals1[:,0], residuals1[:,1]-offset1, errorbars1[:,1], fmt='.')
     ax_residual1.plot(tfit, yfit1, 'r-')
     redraw_axes()
 
     ############
     # load initial estimate of parameters
-    pars2 = np.zeros(3)
+    pars2 = np.zeros(4)
     pars2[0] = var_amplitude2_est.get()
     pars2[1] = var_frequency2_est.get()
     pars2[2] = var_phase2_est.get()
+    pars2[3] = var_offset2_est.get()
 
-    # fit sinusoid to detrended residuals
+    # fit sinusoid with constant offset to residuals
     pfit2, pcov2, infodict, message, ier = \
-    opt.leastsq(errsinusoid, pars2, args=(dtresiduals2[:,0], dtresiduals2[:,1], errorbars2[:,1]), full_output=1)
+    opt.leastsq(errsinusoid, pars2, args=(residuals2[:,0], residuals2[:,1], errorbars2[:,1]), full_output=1)
 
     # fill best-fit values of parameters
     var_amplitude2_fit.set(pfit2[0])
     var_frequency2_fit.set(pfit2[1])
     var_phase2_fit.set(pfit2[2])
+    var_offset2_fit.set(pfit2[3])
 
     # best-fit sinusoid
-    tfit = np.linspace(0, max(dtresiduals1[-1,0], dtresiduals2[-1,0]), 1024)
+    tfit = np.linspace(0, max(residuals1[-1,0], residuals2[-1,0]), 1024)
     yfit2 = pfit2[0]*np.sin(2*np.pi*pfit2[1]*tfit + pfit2[2])
 
-    # plot detrended residuals with best-fit sinusoid
+    # constant offset
+    N = len(residuals2[:,0])
+    offset2 = pfit2[3]*np.ones(N)
+
+    # plot residuals with constant removed and with best-fit sinusoid
     ax_residual2.cla()
-    ax_residual2.errorbar(dtresiduals2[:,0], dtresiduals2[:,1], errorbars2[:,1], fmt='.')
+    ax_residual2.errorbar(residuals2[:,0], residuals2[:,1]-offset2, errorbars2[:,1], fmt='.')
     ax_residual2.plot(tfit, yfit2, 'r-')
     redraw_axes()
 
@@ -493,17 +501,14 @@ button_loadprofiles.grid(row=0,column=2)
 button_calresiduals = Tk.Button(frame_button,text="Calculate residuals",command=lambda: func_calresiduals())
 button_calresiduals.grid(row=0,column=3)
 
-button_removeoffset = Tk.Button(frame_button,text="Remove offset",command=lambda: func_removeoffset())
-button_removeoffset.grid(row=0,column=4)
-
-button_fitsinusoid = Tk.Button(frame_button,text="Fit sinusoids",command=lambda: func_fitsinusoid())
-button_fitsinusoid.grid(row=0,column=5)
+button_fitsinusoids = Tk.Button(frame_button,text="Fit sinusoids & remove offsets",command=lambda: func_fitsinusoid())
+button_fitsinusoids.grid(row=0,column=4)
 
 button_calcorrcoeff = Tk.Button(frame_button,text="Calculate corr coeff",command=lambda: func_calcorrcoeff())
-button_calcorrcoeff.grid(row=0,column=6)
+button_calcorrcoeff.grid(row=0,column=5)
 
 entry_calcorrcoeff = Tk.Entry(frame_button,textvariable=var_corrcoeff)
-entry_calcorrcoeff.grid(row=0,column=7)
+entry_calcorrcoeff.grid(row=0,column=6)
 
 ## ----------
 ## Messages
