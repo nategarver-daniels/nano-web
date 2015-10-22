@@ -125,16 +125,15 @@ def calmeasuredTOAs(ts, template, Tp):
         # END DEBUG SECTION
     
     # error estimate for TOAs (based on correlation curve)
-    # basically, we can determine the max of the correlation to +/- 0.25 deltaT;
-    # multiply by 1/Ahat(ii) to increase error bar for small correlations
+    # basically, we can determine the max of the correlation to +/- 0.5 deltaT;
+    # multiply by 1/sqrt(Ahat(ii)) to increase error bar for small correlations
 
     ##Ahat_max = np.max(Ahat) # nan is max (which i don't want)
     Ahat_max = max(Ahat)
 
     error_tauhat = np.zeros(len(tauhat))
     for ii in range(0, len(tauhat)):
-        error_tauhat[ii] = 0.5*deltaT*Ahat_max/Ahat[ii]
-        ##error_tauhat[ii] = 0.25*deltaT/Ahat[ii]
+        error_tauhat[ii] = 0.5*deltaT/np.sqrt(Ahat[ii])
         
     # assign output variables (only TOAs and their uncertainties needed)
     measuredTOAs = tauhat
